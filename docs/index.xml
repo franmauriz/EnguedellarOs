@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EnguedellarOS</title>
+    <link>localhost/</link>
+    <description>Recent content on EnguedellarOS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 07 Sep 2020 18:23:00 +0200</lastBuildDate>
+    
+	<atom:link href="localhost/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Istalando KDE Neon</title>
+      <link>localhost/posts/2020-09-10-instalando-kde-neon/</link>
+      <pubDate>Thu, 10 Sep 2020 07:40:36 +0200</pubDate>
+      
+      <guid>localhost/posts/2020-09-10-instalando-kde-neon/</guid>
+      <description>Nuestra primera instalación con Kde Neon. ¡¡Vamos a instalar nuestra primera distribución GNU/Linux!! En otros post de EnguedellarOS ya he explicado como crear un USB de instalación y las consideraciones que debemos tener con la partición UEFI.
+En este articulo explicare los pasos necesarios para instalar la distro KDE Neon. Entre todas las distros GNU/Linux que existen escogí KDE Neon entre estas razones:
+ Esta basada en Ubuntu 20.04 LTS una versión estable de largo plazo.</description>
+    </item>
+    
+    <item>
+      <title>Que es UEFI , GTP y ESP</title>
+      <link>localhost/posts/2020-09-08-dialogo_uefi/</link>
+      <pubDate>Tue, 08 Sep 2020 07:50:22 +0200</pubDate>
+      
+      <guid>localhost/posts/2020-09-08-dialogo_uefi/</guid>
+      <description>Cuando vamos a instalar GNU/Linux , ya sea en una instalación dual con Windows o en una instalación individual, una de las primeras dificultades que nos encontramos es ¿Que es el UEFI? ¿es EFI o UEFI? ¿MBR o GPT?
+Con este pequeño articulo resumen intentare explicar de la forma más sencilla que significan estos términos para solventar las instalaciones de nuestros sistema favorito del GNU/Linux.
+EFI , UEFI , GPT y ESP Por la limitaciones de la Bios, se decidió crear una nueva especificación para sustituirla.</description>
+    </item>
+    
+    <item>
+      <title>Crear USB de instalación de distribución GNU/Linux</title>
+      <link>localhost/posts/2020-09-08-crear-usb-de-instalacion/</link>
+      <pubDate>Tue, 08 Sep 2020 07:40:36 +0200</pubDate>
+      
+      <guid>localhost/posts/2020-09-08-crear-usb-de-instalacion/</guid>
+      <description>Como crear un USB de instalación para GNU/Linux Cuando por fin nos decidimos a probar o a instalar una distribución GNU/Linux , ya sea , Ubuntu,Linux mint, Fedora , etc. Esa distribución que hemos visto que nos gusta o se adecua a nuestras necesidades y a nuestro equipo tendremos que crear un USB de instalación o un USB booteable para poder arrancar el instalador en nuestro equipo.
+Los pasos a seguir son sencillos y tenemos muchas opciones para realizar el USB ejecutable.</description>
+    </item>
+    
+    <item>
+      <title>Contacto</title>
+      <link>localhost/contacto/</link>
+      <pubDate>Mon, 07 Sep 2020 18:23:00 +0200</pubDate>
+      
+      <guid>localhost/contacto/</guid>
+      <description>EnguedellarOS pretende ser un proyecto para dar a conocer el Software libre y el universo GNU/Linux.
+Pero EnguedellarOS viene de la palabra gallega &amp;lsquo;enguedellar&amp;rsquo; que significa mezclar de manera confusa cosas, ideas,etc. Con esto quiero decir que también aparecerán temas relacionados con la tecnología como Arduino, Diseño 3D y más.
+Puedes contactar de las siguientes maneras:
+Twitter: @FranMauriz</description>
+    </item>
+    
+  </channel>
+</rss>
