@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on EnguedellarOS</title>
-    <link>localhost/categories/</link>
+    <link>https://franmauriz.github.io/EnguedellarOs/categories/</link>
     <description>Recent content in Categories on EnguedellarOS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Thu, 10 Sep 2020 07:40:36 +0200</lastBuildDate>
     
-	<atom:link href="localhost/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://franmauriz.github.io/EnguedellarOs/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>instalacion</title>
-      <link>localhost/categories/instalacion/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/categories/instalacion/</link>
       <pubDate>Thu, 10 Sep 2020 07:40:36 +0200</pubDate>
       
-      <guid>localhost/categories/instalacion/</guid>
+      <guid>https://franmauriz.github.io/EnguedellarOs/categories/instalacion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>localhost/categories/linux/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/categories/linux/</link>
       <pubDate>Thu, 10 Sep 2020 07:40:36 +0200</pubDate>
       
-      <guid>localhost/categories/linux/</guid>
+      <guid>https://franmauriz.github.io/EnguedellarOs/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>UEFI</title>
-      <link>localhost/categories/uefi/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/categories/uefi/</link>
       <pubDate>Tue, 08 Sep 2020 07:50:22 +0200</pubDate>
       
-      <guid>localhost/categories/uefi/</guid>
+      <guid>https://franmauriz.github.io/EnguedellarOs/categories/uefi/</guid>
       <description></description>
     </item>
     

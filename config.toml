@@ -1,4 +1,4 @@
-baseURL = "localhost"
+baseURL = "https://franmauriz.github.io/EnguedellarOs/"
 languageCode = "es"
 title = "EnguedellarOS"
 theme = "tale"

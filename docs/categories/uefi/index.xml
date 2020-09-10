@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UEFI on EnguedellarOS</title>
-    <link>localhost/categories/uefi/</link>
+    <link>https://franmauriz.github.io/EnguedellarOs/categories/uefi/</link>
     <description>Recent content in UEFI on EnguedellarOS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Tue, 08 Sep 2020 07:50:22 +0200</lastBuildDate>
     
-	<atom:link href="localhost/categories/uefi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://franmauriz.github.io/EnguedellarOs/categories/uefi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Que es UEFI , GTP y ESP</title>
-      <link>localhost/posts/2020-09-08-dialogo_uefi/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-08-dialogo_uefi/</link>
       <pubDate>Tue, 08 Sep 2020 07:50:22 +0200</pubDate>
       
-      <guid>localhost/posts/2020-09-08-dialogo_uefi/</guid>
+      <guid>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-08-dialogo_uefi/</guid>
       <description>Cuando vamos a instalar GNU/Linux , ya sea en una instalación dual con Windows o en una instalación individual, una de las primeras dificultades que nos encontramos es ¿Que es el UEFI? ¿es EFI o UEFI? ¿MBR o GPT?
 Con este pequeño articulo resumen intentare explicar de la forma más sencilla que significan estos términos para solventar las instalaciones de nuestros sistema favorito del GNU/Linux.
 EFI , UEFI , GPT y ESP Por la limitaciones de la Bios, se decidió crear una nueva especificación para sustituirla.</description>

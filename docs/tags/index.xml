@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on EnguedellarOS</title>
-    <link>localhost/tags/</link>
+    <link>https://franmauriz.github.io/EnguedellarOs/tags/</link>
     <description>Recent content in Tags on EnguedellarOS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Thu, 10 Sep 2020 07:40:36 +0200</lastBuildDate>
     
-	<atom:link href="localhost/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://franmauriz.github.io/EnguedellarOs/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>empezando</title>
-      <link>localhost/tags/empezando/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/tags/empezando/</link>
       <pubDate>Thu, 10 Sep 2020 07:40:36 +0200</pubDate>
       
-      <guid>localhost/tags/empezando/</guid>
+      <guid>https://franmauriz.github.io/EnguedellarOs/tags/empezando/</guid>
       <description></description>
     </item>
     
     <item>
       <title>instalación</title>
-      <link>localhost/tags/instalaci%C3%B3n/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/tags/instalaci%C3%B3n/</link>
       <pubDate>Thu, 10 Sep 2020 07:40:36 +0200</pubDate>
       
-      <guid>localhost/tags/instalaci%C3%B3n/</guid>
+      <guid>https://franmauriz.github.io/EnguedellarOs/tags/instalaci%C3%B3n/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>localhost/tags/linux/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/tags/linux/</link>
       <pubDate>Thu, 10 Sep 2020 07:40:36 +0200</pubDate>
       
-      <guid>localhost/tags/linux/</guid>
+      <guid>https://franmauriz.github.io/EnguedellarOs/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EFI</title>
-      <link>localhost/tags/efi/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/tags/efi/</link>
       <pubDate>Tue, 08 Sep 2020 07:50:22 +0200</pubDate>
       
-      <guid>localhost/tags/efi/</guid>
+      <guid>https://franmauriz.github.io/EnguedellarOs/tags/efi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>UEFI</title>
-      <link>localhost/tags/uefi/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/tags/uefi/</link>
       <pubDate>Tue, 08 Sep 2020 07:50:22 +0200</pubDate>
       
-      <guid>localhost/tags/uefi/</guid>
+      <guid>https://franmauriz.github.io/EnguedellarOs/tags/uefi/</guid>
       <description></description>
     </item>
     
