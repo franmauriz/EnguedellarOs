@@ -34,31 +34,31 @@ Una vez que ya hemos creado el USB con la imagen de KDE Neon que puedes descarga
 
 Ya tenemos el equipo configurado para proceder a instalar **KDE Neon**. Conectamos el USB y encendemos el equipo, si todo ha ido bien, aparecerá el escritorio de KDE Neon.
 
-![Escritorio](/images/kde_neon_inicio02.png)
+![Escritorio](/EnguedellarOs/images/kde_neon_inicio02.png)
 
 Desde aquí podemos probar el funcionamiento de KDE Neon en nuestros ordenador, por ejemplo, si el wifi funciona y detecta nuestra red de casa, si no consume muchos recursos de nuestra maquina. Si estamos contentos como funciona y no hay problemas con el icono del escritorio **Install System** empezaremos con la instalación.
 
 En primer lugar tenemos la ventana de **Welcome**.
 
-![Welcome](/images/kde_neon_welcome03.png)
+![Welcome](/EnguedellarOs/images/kde_neon_welcome03.png)
 
 Aquí escogeremos el idioma para que el instalador se cambie a nuestra lengua y se instale, es este caso, en Español. Después pulsamos *Siguiente*.
 
 Se cambiara la pantalla a la ventana **Ubicación**.
 
-![Ubicación](/images/kde_neon_location04.png)
+![Ubicación](/EnguedellarOs/images/kde_neon_location04.png)
 
 Marcaremos en el mapa en el país donde nos encontramos para que el sistema configure nuestra zona horaria.
 
 Ahora pasamos a la siguiente pantalla donde configuraremos el **Teclado** de nuestro equipo.
 
-![Teclado](/images/kde_neon_teclado05.png)
+![Teclado](/EnguedellarOs/images/kde_neon_teclado05.png)
 
 Le indicaremos el lenguaje que debe de usar nuestro teclado, en la parte inferior de la ventana encontramos una caja de texto donde podemos comprobar que las teclas del teclado funciona correctamente sin mostrar caracteres extraños.
 
 Ahora pasaremos al proceso más complicado y delicado de la instalación la creación de particiones en nuestro disco duro o SSD.
 
-![Particiones](images/kde_neon_particion06.png)
+![Particiones](/EnguedellarOs/images/kde_neon_particion06.png)
 
 Antes de seguir, tengo que hacer una aclaración, para hacer el articulo estoy usando una *maquina virtual* *QUEMU* para instalar **KDE Neon** ya que no dispongo de un equipo de pruebas. ¿Por qué digo esto? por que en este apartado habréis notado, que a vosotros os aparecen más opciones que las que indico en la imagen.
 
@@ -68,15 +68,15 @@ Pero vamos a concentrarnos en la opción de crear el **Particonado Manual.** Asi
 
 Hacemos check en **Particonado Manual.** y después a *Siguiente*, no encontramos ahora en la próxima pantalla.
 
-![Particones](/images/kde_neon_particonado07.png)
+![Particones](/EnguedellarOs/images/kde_neon_particonado07.png)
 
 Si os fijasteis, en la ventana anterior en la parte superior izquierda el instalador de KDE nos informaba que estamos haciendo una instalación sobre BIOS, es decir, no tenemos UEFI, eso es debido por que usamos la maquina virtual.
 
-![Particones](/images/kde_neon_particion07_1.png)
+![Particones](/EnguedellarOs/images/kde_neon_particion07_1.png)
 
 Explicare la diferencia entre las dos instalaciones. Por ahora vamos a realizar un proceso común a las dos formas, y es crear una tabla de particiones nueva, como es evidente, tendremos que pulsar el botón **Nueva tabla de particiones** y obtendremos la siguiente ventana.
 
-![Tabla de particiones](/images/kde_neon_particonado09.png)
+![Tabla de particiones](/EnguedellarOs/images/kde_neon_particonado09.png)
 
 A la pregunta de que tipo de tabla deseamos crear le responderemos un _**Tabla de Particiones GUID(GPT)**_. Aunque GPT es una característica de UEFI también es compatible con BIOS con lo que funciona perfectamente.
 
@@ -86,7 +86,7 @@ Después nos indicara que tenemos una partición creada con *Espacio libre*. Hac
 
 Voy a explicar como crear la partición EFI si lo tenemos activo en la BIOS.
 
-![EFI](/images/kde_neon_efi10.png)
+![EFI](/EnguedellarOs/images/kde_neon_efi10.png)
 
 Como podéis ver cuando creamos una partición nueva nos sale la ventana anterior, y tendremos que cumplimentar los campos que nos solicita:
 
@@ -122,39 +122,39 @@ A partir de ahora el proceso es exactamente igual tengamos o no tengamos UEFI.
 Crearemos la partición **root** donde se instalara el sistema GNU/Linux.Tan solo tenemos que cambiar el campo _**Punto de Montaje**_ por **/** que significa que es la raíz del sistema e indicarle el tamaño que deseamos en el campo _**Tamaño**_. En el campo _**Sistema de archivos**_ indicaremos el mismo que la partición /boot
 >Con el tiempo experimentaras con otros tipos de sistemas de archivos, pero para empezar este formato es más que bueno.
 
-![Root](/images/kde_neon_root11.png)
+![Root](/EnguedellarOs/images/kde_neon_root11.png)
 
 Una vez ya establecimos el **root** es el turno para la partición **/home**. En esta partición se encontrará el directorio donde guardaremos nuestros datos como archivos ofimáticos, videos, fotográficas, etc. Es muy recomendable crear esta partición ya que nos asegura que nuestros datos están separados del sistema y ante un posible error del mismo siempre podremos recuperar los datos sin problemas.
 
 Como ya sabemos tenemos que cambiar el campo _**Punto de Montaje**_ por **/home** que significa que es la partición donde se guardarán los datos del usuario e indicarle el tamaño que deseamos en el campo _**Tamaño**_. En el campo _**Sistema de archivos**_ indicaremos el formato **ext4**.
 
-![Home](/images/kde_neon_home12.png)
+![Home](/EnguedellarOs/images/kde_neon_home12.png)
 
 ## ¡Ya casi estamos acabando!
 
 No entrare si es necesario o no, esta partición, la polémica **Swap**. Yo solo puedo decir, que por mi experiencia, manejando bases de datos y con otras aplicaciones que han ido a buscar la **Swap** al no encontrarla el sistema se quedo congelado, con lo que siempre la creo.
 
-![Swap](/images/kde_neon_swap13.png)
+![Swap](/EnguedellarOs/images/kde_neon_swap13.png)
 
 Indicarle el tamaño que deseamos en el campo _**Tamaño**_. En el campo _**Sistema de archivos**_ indicaremos el formato **linuxswap**. En esta ocasión el campo _**Punto de Montaje**_ no hay que indicarle nada, ya que la **Swap** no se monta en el sistema.
 
 Una vez que ya hemos creado todas las particiones nuestro disco se vera algo parecido a la siguiente imagen.
 
-![Particiones](/images/kde_neon_14.png)
+![Particiones](/EnguedellarOs/images/kde_neon_14.png)
 
 ## ¡Ya podemos seguir con la instalación!
 
 Ya solo queda continuar, con lo que pulsamos el botón *Siguiente*.
 
-![Usuario](/images/kde_neon_15.png)
+![Usuario](/EnguedellarOs/images/kde_neon_15.png)
 
 Solo tenemos que indicar el nombre del **Usuario** que queremos crear para el sistema, el **Nombre del Ordenador** y la **Contraseña** con la que entraremos en el sistema. Si marcamos el check de **Conectarse automáticamente** al iniciar el ordenador no preguntara ni usuario ni contraseña. Una vez rellenados pulsamos el boton **Instalar**. Y empezará la instalación.
 
-![Instalando](/images/kde_neon_16.png)
+![Instalando](/EnguedellarOs/images/kde_neon_16.png)
 
 Ahora solo tenemos que esperar que acabe con el proceso. Cuando eso suceda nos mostrara el siguiente mensaje.
 
-![Fin](/images/kde_neon_17.png)
+![Fin](/EnguedellarOs/images/kde_neon_17.png)
 
 ## ¡Ya se ha acabado!
 

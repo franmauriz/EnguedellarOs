@@ -20,6 +20,7 @@ Por la limitaciones de la Bios, se decidió crear una nueva especificación para
 En 2005, Intel pasó a contribuir en **Unified EFI Forum** y pasó a llamarse **UEFI (Unified Extensible Firmware Interface)**. UEFI es una especificación para una interfaz software entre el sistema operativo y el firmware.
 
 ## VENTAJAS
+
 1. Arranque y tiempo de reanudación más rápidos.
 2. Uso de unidades cifradas gracias al arranque seguro.
 3. Admite unidades de disco de un volumen superior a 2 TB.
@@ -92,6 +93,3 @@ La estructura de GPT sigue usando MBR por cuestiones de compatibilidad. El MBR c
     - El nombre que se almacena en Unicode
 
 En los últimos bloques del disco se almacena una copia de la estructura de la GPT.
-
-
-

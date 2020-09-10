@@ -66,8 +66,8 @@
 		<h1 id="como-crear-un-usb-de-instalación-para-gnulinux">Como crear un USB de instalación para GNU/Linux</h1>
 <p>Cuando por fin nos decidimos a probar o a instalar una distribución GNU/Linux , ya sea , Ubuntu,Linux mint, Fedora , etc. Esa distribución que hemos visto que nos gusta o se adecua a nuestras necesidades y a nuestro equipo tendremos que crear un USB de instalación o un USB booteable para poder arrancar el instalador en nuestro equipo.</p>
 <p>Los pasos a seguir son sencillos y tenemos muchas opciones para realizar el USB ejecutable. Explicaré cómo hacerlo desde Windows y GNU/Linux usando las aplicaciones <em>Rufus</em> y <em>balena Etcher</em> respectivamente en su Sistema operativo, por que creo que son las aplicaciones que nos lo ponen más fácil a la hora de hacerlo.</p>
-<p><img src="/images/ventana_rufus.png" alt="Rufus" title="Imagen de Rufus"></p>
-<p><img src="/images/ventana_balena.jpg" alt="balena Etcher" title="Imagen de balena Etcher"></p>
+<p><img src="/EnguedellarOs/images/ventana_rufus.png" alt="Rufus" title="Imagen de Rufus"></p>
+<p><img src="/EnguedellarOs/images/ventana_balena.jpg" alt="balena Etcher" title="Imagen de balena Etcher"></p>
 <p>Lo primero que debemos hacer antes de ponernos a crear el USB es descargarnos la imagen de la distribución que queremos instalar, lo más recomendable, es siempre descargarla de las páginas oficiales que nos ofrecen las distros. Por ejemplo, si queremos instalar Linux Mint , deberemos descargarla de su <a href="https://linuxmint.com/download.php">página oficial</a>.</p>
 <p>Una vez ya tenemos la imagen ISO en nuestro ordenador, recomiendo, verificar la descarga de la ISO, normalmente en las páginas oficiales donde nos bajamos la iso, tam0bién tenemos un fichero de texto donde tiene escrito el valor de la  suma  <a href="https://es.m.wikipedia.org/wiki/SHA-2">SHA256</a> , lo descargamos también a nuestro equipo.</p>
 <h2 id="uverificación-de-la-imagen-iso-descargadau"><!-- raw HTML omitted -->Verificación de la imagen ISO descargada.<!-- raw HTML omitted --></h2>
@@ -89,7 +89,7 @@
 <p>Una vez que ya sabemos que la ISO no tiene ningún problema ya podremos pasarla al USB.</p>
 <p>En Windows usaremos la aplicación <a href="http://rufus.ie/"><strong>Rufus</strong>, que puedes descargarla desde aquí</a>.</p>
 <p>Una vez instalada , la ejecutamos y nos aparece la siguiente imagen:</p>
-<p><img src="/images/ventana_rufus.png" alt=""></p>
+<p><img src="/EnguedellarOs/images/ventana_rufus.png" alt=""></p>
 <p>Es una interface muy intuitiva y fácil de usar, pero iré describiendo los distintos apartados que nos ofrece.</p>
 <h3 id="device-o-dispositivo">Device o Dispositivo</h3>
 <p>En este combo aparece los distintivos dispositivos de almacenamiento externos que tengamos conectados en el ordenador. De todos los que nos aparece debemos escoger el nombre de la unidad USB donde queramos grabar la imagen ISO.</p>
@@ -118,20 +118,20 @@
 <h2 id="crear-usb-ejecutable-en-gnulinux">Crear USB ejecutable en GNU/Linux.</h2>
 <p>En GNU/Linux usaremos la aplicación Balena Etcher, puedes descargarla dede <a href="https://www.balena.io/etcher/">aquí</a>.</p>
 <p>Se descargará un fichero <em>.zip</em> solo tenemos que descomprimirlo en cualquier directorio de nuestro equipo. Cuando este descomprimido aparecerá un fichero:</p>
-<p><img src="/images/ico_balena.png" alt="AppImage"></p>
+<p><img src="/EnguedellarOs/images/ico_balena.png" alt="AppImage"></p>
 <p>Si pulsamos dos vees sobre él con el botón izquierdo del botón se ejecutara y aparecerá la siguiente ventana:</p>
-<p><img src="/images/ventana_balena.jpg" alt="balena Etcher" title="Imagen de balena Etcher"></p>
+<p><img src="/EnguedellarOs/images/ventana_balena.jpg" alt="balena Etcher" title="Imagen de balena Etcher"></p>
 <p>Nota</p>
 <blockquote>
 <p>Si al pulsar sobre el fichero AppImage no se ejecuta debemos asegurarnos que el fichero tiene permisos de ejecución. Podemos comprobarlo si pulsamos con el botón derecho del ratón sobre el AppImage y seleccionamos la opción de propiedades que nos muestra el menú modal. Si vemos que el check de &ldquo;es ejecutable&rdquo; esta marcado significa que se ejecutará sin problemas, sino lo esta lo marcamos y aceptamos para que los permisos se guarden.</p>
 </blockquote>
 <blockquote>
-<p><img src="/images/propiedades_balena.png" alt="Ventana propiedades"></p>
+<p><img src="/EnguedellarOs/images/propiedades_balena.png" alt="Ventana propiedades"></p>
 </blockquote>
 <p>El proceso de creación del USB de instalación con <strong>Balena Etcher</strong> es muy sencillo solo son tres secillos pasos:</p>
-<p><img src="/images/ventana_balena.jpg" alt=""></p>
+<p><img src="/EnguedellarOs/images/ventana_balena.jpg" alt=""></p>
 <p>Primero en la opción <strong>Select image</strong> al pulsar el botón le indicamos que imagen ISO vamos a grabar en el USB. Después En <strong>Select Drive</strong> escogeremos nuestro dispositivo USB que vamos a utilizar. Por ultimo pulsaremos el botón <strong>Flash</strong> y empezará el proceso. Pero antes nos pedirá la contraseña root de nuestro sistema para otorgarle permisos a Balena Etcher para que crear el USB ejecutable.</p>
-<p>Despues veremos la ventana que nos indica que se esta <em>Flashing</em> la unidad USB, cunado termine la barra del proceso, Balena etcher valida que la creación fue correcta. DEspues de eso ya podemos desconectar el USB de nuestro ordenador y ya lo tenemos listo para usarlo.</p>
+<p>Después veremos la ventana que nos indica que se esta <em>Flashing</em> la unidad USB, cunado termine la barra del proceso, Balena etcher valida que la creación fue correcta. Después de eso ya podemos desconectar el USB de nuestro ordenador y ya lo tenemos listo para usarlo.</p>
 <p>Estas son las dos formas más utilizadas de crear un USB ejecutable para instalar GNU/Linux tanto para Hacerlo desde Windows como en GNU/Linux. Ahora solo nos queda instalar la distro que más nos guste en el equipo.</p>
 
 
@@ -149,7 +149,7 @@
 
         		<footer>
 			<span>
-			&copy; <time datetime="2020-09-10 21:57:13.612239562 &#43;0200 CEST m=&#43;0.199063575">2020</time> Francisco Mauriz Pereira. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			&copy; <time datetime="2020-09-10 22:11:38.83019392 &#43;0200 CEST m=&#43;0.190626533">2020</time> Francisco Mauriz Pereira. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
 			</span>
 		</footer>
 

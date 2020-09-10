@@ -13,9 +13,9 @@ Cuando por fin nos decidimos a probar o a instalar una distribución GNU/Linux ,
 
 Los pasos a seguir son sencillos y tenemos muchas opciones para realizar el USB ejecutable. Explicaré cómo hacerlo desde Windows y GNU/Linux usando las aplicaciones *Rufus* y *balena Etcher* respectivamente en su Sistema operativo, por que creo que son las aplicaciones que nos lo ponen más fácil a la hora de hacerlo.
 
-![Rufus](/images/ventana_rufus.png "Imagen de Rufus")
+![Rufus](/EnguedellarOs/images/ventana_rufus.png "Imagen de Rufus")
 
-![balena Etcher](/images/ventana_balena.jpg "Imagen de balena Etcher")
+![balena Etcher](/EnguedellarOs/images/ventana_balena.jpg "Imagen de balena Etcher")
 
 
 Lo primero que debemos hacer antes de ponernos a crear el USB es descargarnos la imagen de la distribución que queremos instalar, lo más recomendable, es siempre descargarla de las páginas oficiales que nos ofrecen las distros. Por ejemplo, si queremos instalar Linux Mint , deberemos descargarla de su [página oficial](https://linuxmint.com/download.php).
@@ -27,8 +27,8 @@ https://es.m.wikipedia.org/wiki/SHA-2) , lo descargamos también a nuestro equip
 
 La verificación de la ISO es importante ,ya que gracias a ella podemos estar seguros de dos cosas:
 
- - Se descargó sin ningún problema, es decir, el fichero no está corrupto.
- -  La imagen ISO que proporcionan las distribuciones para su uso es la verdadera y no una modificada por terceros.
+- Se descargó sin ningún problema, es decir, el fichero no está corrupto.
+- La imagen ISO que proporcionan las distribuciones para su uso es la verdadera y no una modificada por terceros.
 
 El método para realizar la comprobación es sencillo, solo tenemos que ejecutar desde una terminal el siguiente comando:
 
@@ -60,7 +60,7 @@ En Windows usaremos la aplicación [**Rufus**, que puedes descargarla desde aqu�
 
  Una vez instalada , la ejecutamos y nos aparece la siguiente imagen:
 
-![](/images/ventana_rufus.png) 
+![](/EnguedellarOs/images/ventana_rufus.png) 
 
 Es una interface muy intuitiva y fácil de usar, pero iré describiendo los distintos apartados que nos ofrece.
 
@@ -107,25 +107,24 @@ En GNU/Linux usaremos la aplicación Balena Etcher, puedes descargarla dede [aqu
 
 Se descargará un fichero *.zip* solo tenemos que descomprimirlo en cualquier directorio de nuestro equipo. Cuando este descomprimido aparecerá un fichero:
 
-![AppImage](/images/ico_balena.png)
+![AppImage](/EnguedellarOs/images/ico_balena.png)
 
 Si pulsamos dos vees sobre él con el botón izquierdo del botón se ejecutara y aparecerá la siguiente ventana:
 
-![balena Etcher](/images/ventana_balena.jpg "Imagen de balena Etcher")
+![balena Etcher](/EnguedellarOs/images/ventana_balena.jpg "Imagen de balena Etcher")
 
 Nota
 > Si al pulsar sobre el fichero AppImage no se ejecuta debemos asegurarnos que el fichero tiene permisos de ejecución. Podemos comprobarlo si pulsamos con el botón derecho del ratón sobre el AppImage y seleccionamos la opción de propiedades que nos muestra el menú modal. Si vemos que el check de "es ejecutable" esta marcado significa que se ejecutará sin problemas, sino lo esta lo marcamos y aceptamos para que los permisos se guarden.
 
-> ![Ventana propiedades](/images/propiedades_balena.png)
+> ![Ventana propiedades](/EnguedellarOs/images/propiedades_balena.png)
 
 
 El proceso de creación del USB de instalación con **Balena Etcher** es muy sencillo solo son tres secillos pasos:
 
-![](/images/ventana_balena.jpg)
+![](/EnguedellarOs/images/ventana_balena.jpg)
 
 Primero en la opción **Select image** al pulsar el botón le indicamos que imagen ISO vamos a grabar en el USB. Después En **Select Drive** escogeremos nuestro dispositivo USB que vamos a utilizar. Por ultimo pulsaremos el botón **Flash** y empezará el proceso. Pero antes nos pedirá la contraseña root de nuestro sistema para otorgarle permisos a Balena Etcher para que crear el USB ejecutable.
 
-Despues veremos la ventana que nos indica que se esta *Flashing* la unidad USB, cunado termine la barra del proceso, Balena etcher valida que la creación fue correcta. DEspues de eso ya podemos desconectar el USB de nuestro ordenador y ya lo tenemos listo para usarlo.
-
+Después veremos la ventana que nos indica que se esta *Flashing* la unidad USB, cunado termine la barra del proceso, Balena etcher valida que la creación fue correcta. Después de eso ya podemos desconectar el USB de nuestro ordenador y ya lo tenemos listo para usarlo.
 
 Estas son las dos formas más utilizadas de crear un USB ejecutable para instalar GNU/Linux tanto para Hacerlo desde Windows como en GNU/Linux. Ahora solo nos queda instalar la distro que más nos guste en el equipo.
