@@ -1,0 +1,23 @@
+baseURL = "localhost"
+languageCode = "es"
+title = "EnguedellarOS"
+theme = "tale"
+
+[menu]
+  [[menu.main]]
+    identifier = "contacto"
+    name = "Contacto"
+    title = "Contacto"
+    url = "/Contacto/"
+    weight = 0
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts/"
+    weight = -1
+
+
+[author]
+  name = "Francisco Mauriz Pereira"
+  homepage = "localhost"
