@@ -1,5 +1,5 @@
 ---
-title: "2020 09 11 Red_WiFi_desde_terminal"
+title: "Configurar red WiFi desde la terminal"
 date: 2020-09-11T11:59:34+02:00
 author: Francisco Mauriz Pereira
 categories: [Linux,Wifi]
