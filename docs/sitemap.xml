@@ -3,8 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://franmauriz.github.io/EnguedellarOs/tags/backup/</loc>
+    <lastmod>2020-09-14T11:39:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://franmauriz.github.io/EnguedellarOs/categories/backup/</loc>
+    <lastmod>2020-09-14T11:39:25+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://franmauriz.github.io/EnguedellarOs/categories/</loc>
-    <lastmod>2020-09-11T11:59:34+02:00</lastmod>
+    <lastmod>2020-09-14T11:39:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-14-crea-tus-backups-con-back_in_time/</loc>
+    <lastmod>2020-09-14T11:39:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://franmauriz.github.io/EnguedellarOs/tags/linux/</loc>
+    <lastmod>2020-09-14T11:39:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://franmauriz.github.io/EnguedellarOs/categories/linux/</loc>
+    <lastmod>2020-09-14T11:39:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://franmauriz.github.io/EnguedellarOs/posts/</loc>
+    <lastmod>2020-09-14T11:39:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://franmauriz.github.io/EnguedellarOs/tags/seguridad/</loc>
+    <lastmod>2020-09-14T11:39:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://franmauriz.github.io/EnguedellarOs/categories/seguridad/</loc>
+    <lastmod>2020-09-14T11:39:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://franmauriz.github.io/EnguedellarOs/tags/</loc>
+    <lastmod>2020-09-14T11:39:25+02:00</lastmod>
   </url>
   
   <url>
@@ -13,27 +58,7 @@
   </url>
   
   <url>
-    <loc>https://franmauriz.github.io/EnguedellarOs/tags/linux/</loc>
-    <lastmod>2020-09-11T11:59:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://franmauriz.github.io/EnguedellarOs/categories/linux/</loc>
-    <lastmod>2020-09-11T11:59:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://franmauriz.github.io/EnguedellarOs/posts/</loc>
-    <lastmod>2020-09-11T11:59:34+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://franmauriz.github.io/EnguedellarOs/tags/red/</loc>
-    <lastmod>2020-09-11T11:59:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://franmauriz.github.io/EnguedellarOs/tags/</loc>
     <lastmod>2020-09-11T11:59:34+02:00</lastmod>
   </url>
   

@@ -6,17 +6,35 @@
     <description>Recent content in Categories on EnguedellarOS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 11 Sep 2020 11:59:34 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2020 11:39:25 +0200</lastBuildDate>
     
 	<atom:link href="https://franmauriz.github.io/EnguedellarOs/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Backup</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/categories/backup/</link>
+      <pubDate>Mon, 14 Sep 2020 11:39:25 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/categories/backup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linux</title>
       <link>https://franmauriz.github.io/EnguedellarOs/categories/linux/</link>
-      <pubDate>Fri, 11 Sep 2020 11:59:34 +0200</pubDate>
+      <pubDate>Mon, 14 Sep 2020 11:39:25 +0200</pubDate>
       
       <guid>https://franmauriz.github.io/EnguedellarOs/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seguridad</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/categories/seguridad/</link>
+      <pubDate>Mon, 14 Sep 2020 11:39:25 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/categories/seguridad/</guid>
       <description></description>
     </item>
     
