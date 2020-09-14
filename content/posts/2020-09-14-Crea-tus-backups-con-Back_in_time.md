@@ -1,13 +1,11 @@
 ---
-title: "Crea Tus Backups Con Back_in_time"
+title: "Crea Tus Backups Con Back in time"
 date: 2020-09-14T11:39:25+02:00
 author: Francisco Mauriz Pereira
 categories: [Linux,Backup,Seguridad]
 tags: [Linux, Backup, Seguridad]
 draft: false
 ---
-
-# Crea tus backups con Back In Time.
 
 Seguro que alguna vez te has lamentado de no tener una copia de seguridad de tus documentos de trabajo, las fotos de tus vacaciones o momentos familiares, etc.
 
