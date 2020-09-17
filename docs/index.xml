@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Instalar Google Chrome en GNU/Linux</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-17-instalar-google-chrome/</link>
+      <pubDate>Thu, 17 Sep 2020 19:21:42 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-17-instalar-google-chrome/</guid>
+      <description>Últimamente me preguntan muchas personas si en GNU/Linux se puede instalar Google Chrome, y si se puede, ¿como se haría la instalación?.
+Por eso voy a explicar la forma más sencilla de hacerlo y después otra manera ,también sencilla, pero con unos pocos más de pasos a seguir.
+Instalación desde el Centro de Software de la distro. Esta es una manera muy sencilla de instalar Google Chrome, incluso, cualquier otro programa que deseemos instalar.</description>
+    </item>
+    
+    <item>
       <title>Crea Tus Backups Con Back in time</title>
       <link>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-14-crea-tus-backups-con-back_in_time/</link>
       <pubDate>Mon, 14 Sep 2020 11:39:25 +0200</pubDate>

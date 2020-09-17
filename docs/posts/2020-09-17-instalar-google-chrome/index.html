@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Instalar Google Chrome en GNU/Linux &middot; EnguedellarOS</title>
+
+		
+  		<link rel="stylesheet" href="/EnguedellarOs/css/style.css">
+		<link rel="stylesheet" href="/EnguedellarOs/css/fonts.css">
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="/EnguedellarOs/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/EnguedellarOs/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/EnguedellarOs/images/apple-touch-icon.png">
+
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="EnguedellarOS" />
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="/EnguedellarOs/">
+					<h2 class="nav-title">EnguedellarOS</h2>
+				</a>
+				<ul>
+    
+    
+        <li>
+            <a href="/EnguedellarOs/posts/">
+                
+                <span>Posts</span>
+                
+            </a>
+        </li>
+    
+        <li>
+            <a href="/EnguedellarOs/contacto/">
+                
+                <span>Contacto</span>
+                
+            </a>
+        </li>
+    
+</ul>
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        Francisco Mauriz Pereira
+        <br>
+        <span>on&nbsp;</span><time datetime="2020-09-17 19:21:42 &#43;0200 CEST">September 17, 2020</time>
+</div>
+
+		<h1 class="post-title">Instalar Google Chrome en GNU/Linux</h1>
+<div class="post-line"></div>
+
+		
+
+		<p>Últimamente me preguntan muchas personas si en GNU/Linux se puede instalar Google Chrome, y si se
+puede, ¿como se haría la instalación?.</p>
+<p>Por eso voy a explicar la forma más sencilla de hacerlo y después otra manera ,también sencilla, pero con unos pocos
+más de pasos a seguir.</p>
+<h2 id="instalación-desde-el-centro-de-software-de-la-distro">Instalación desde el Centro de Software de la distro.</h2>
+<p>Esta es una manera muy sencilla de instalar Google Chrome, incluso, cualquier otro programa que deseemos instalar.</p>
+<p>Lo primero que debemos hacer es ejecutar el <strong>Centro de Software</strong>, que su icono estará en el menú de aplicaciones.</p>
+<p>Nota:</p>
+<blockquote>
+<p><em>En mi caso usaré el <strong>Centro de Software</strong> de GNOME, ya que ahora mismo tengo instalado FEDORA 32 en mi equipo con
+el entorno GNOME, pero el procedimiento es el mismo con cualquier distro que use GNOME.</em></p>
+</blockquote>
+<p>Al ejecutarlo nos aparecerá en el Escritorio la aplicación.</p>
+<p><img src="/EnguedellarOs/images/chrome_01.png" alt="Centro De Software"></p>
+<p>Si nos fijamos en la esquina superior izquierda, tenemos un <strong>icono de lupa</strong> que al hacer click sobre él no aparecerá una <strong>barra de búsqueda</strong> en donde indicaremos el nombre de la aplicación que vamos a instalar, <strong>Google Chrome</strong>.</p>
+<p><img src="/EnguedellarOs/images/chrome_02.png" alt="Centro De Software"></p>
+<p>Se nos filtran las aplicaciones y nos quedamos con la aplicación de Google Chrome. Ahora, solo queda clickar sobre el nombre y cambiara la pantalla.</p>
+<p><img src="/EnguedellarOs/images/chrome_03.png" alt="Centro De Software"></p>
+<p>Nos presentará una pequeña imagen de muestra para ver como es la aplicación , un resumen y datos sobre la licencia de la misma. Pero para conseguir que se instale en nuestro, pulsaremos el botón que nos indica <strong>Instalar</strong> y automáticamente empezará la instalación, eso si, primero nos pedirá que informemos de la contraseña root para seguir.</p>
+<p>Y asi de sencillo es instalar Google Chrome dede el <strong>Centro de Software</strong> que ya viene instalado por defecto en nuestras distros linuxeras.</p>
+<h2 id="instalación-desde-la-página-oficial-de-google">Instalación desde la página oficial de Google.</h2>
+<p>Esta es la manera que todo Windosero tiene bien aprendida para instalar cualquier programa. Ir con el navegador a la página web , descargarse el ejecutable e instalarlo en su equipo (Si es una aplicación legal &hellip; sino el Windosero sabe manejar, eso que llaman parches :S ).</p>
+<p>En GNU/Linux es igual, pero con la salvedad a la hora de instalarlo. Vamos a verlo, lo primero es ir a la pagina oficial de Google Chrome.</p>
+<p><a href="https://www.google.com/chrome/">https://www.google.com/chrome/</a></p>
+<p>Una vez en ella, pulsamos el botón <strong>Download Chrome</strong> o <strong>Descargar Chrome</strong>.</p>
+<p><img src="/EnguedellarOs/images/chrome_04.png" alt="https://www.google.com/chrome/"></p>
+<p>Aparecerá una ventana dándonos dos opciones de descarga, las dos tienen en común que son de 64Bits, pero el tipo del fichero es diferente, con lo que nos descargaremos el que es compatible con nuestra arquitectura de paquetería:</p>
+<ul>
+<li><strong>.deb</strong>: Son de la rama <strong>Debian</strong> y sus derivados como <strong>Ubuntu</strong> y los derivados de este como <strong>Linux Mint</strong> y asi con las que su distro madre es Debian.</li>
+<li><strong>.rpm</strong>: Son de la rama <strong>Red Hat</strong> y sus derivados como <strong>Centos</strong> o <strong>Fedora</strong> y <strong>Open Suse</strong>.</li>
+</ul>
+<p><img src="/EnguedellarOs/images/chrome_05.png" alt="https://www.google.com/chrome/"></p>
+<p>Seleccionamos el que nos corresponda y pulsamos el botón de <strong>Aceptar y instalar</strong>. Con lo que se descargará el fichero .deb o .rpm según el caso.</p>
+<p>Si nuestra distro no es ninguna de las mencionadas antes debemos seguir las instrucciones que la misma pagina de descarga nos advierte en el siguiente texto:</p>
+<blockquote>
+<p>Not Debian/Ubuntu or Fedora/openSUSE? There may be a community-supported version for your distribution <a href="https://chromium.googlesource.com/chromium/src/+/refs/heads/master/docs/linux/chromium_packages.md">here</a>.</p>
+</blockquote>
+<p>Si hacemos click en el texto <em>here</em> o <em>aquí</em> nos llevará a la siguiente página, donde debemos seguir las indicaciones de los enlaces.</p>
+<p><img src="/EnguedellarOs/images/chrome_06.png" alt="https://chromium.googlesource.com/chromium/src/+/refs/heads/master/docs/linux/chromium_packages.md"></p>
+<p>Una vez descargado tenemos que instalar el fichero ejecutable. Podemos hacerlo de varias formas:</p>
+<h3 id="doble-click-en-el-fichero-ejecutable">Doble click en el fichero ejecutable.</h3>
+<p>Para hacerlo de esta manera, tenemos que darle permisos de ejecución al fichero, con lo que pulsaremos con el segundo botón del ratón al fichero y en la pestaña <em>Permisos</em> activamos el check de <em>Ejecutable</em> y aceptamos. Después solo basta con hacer doble click y se ejecutará la instalación.</p>
+<h3 id="desde-la-terminal">Desde la terminal.</h3>
+<p>Según el fichero que hayamos descargado, en una terminal ejecutamos el siguiente comando.</p>
+<h4 id="ejecutable-deb">Ejecutable .deb</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo dpkg -i fichero.deb
+</code></pre></div><h4 id="ejecutable-rpm">Ejecutable .rpm</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo rpm -i fichero.rpm
+</code></pre></div><p>Como veis estas son dos formas de tener <em>Google Chrome</em> en nuestro sistema GNU/Linux. He intentando explicar las dos maneras más fáciles de hacerlo, aunque como siempre en el sistema de Tux, hay muchas más formas de hacerlo y con el tiempo las sabréis controlar todas.</p>
+
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="/EnguedellarOs/posts/2020-09-14-crea-tus-backups-con-back_in_time/" class="left arrow">&#8592;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			<span>
+			&copy; <time datetime="2020-09-17 19:27:13.943937945 &#43;0200 CEST m=&#43;0.128162090">2020</time> Francisco Mauriz Pereira. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			</span>
+		</footer>
+
+    </body>
+</html>
