@@ -19,7 +19,7 @@ googleAnalytics = "UA-123-45"
 disqusShortname = "Fran"
 theme = "monopriv"
 enableEmoji = true
-summaryLength = 20
+summaryLength = 10
 
 [params]  
 about = "EnguedellarOS pretende ser un proyecto para dar a conocer el Software libre y el universo GNU/Linux"
@@ -33,7 +33,7 @@ metakeys = "GNU, linux, software, libre"
 # enable/disable disqus comments 
 disqus = false 
 # enable/disable google analytics 
-analytics = false
+analytics = true
 
 [params.search] # Site search powered by DuckDuckGo
 enabled = true
