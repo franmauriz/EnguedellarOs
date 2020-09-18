@@ -6,6 +6,7 @@
     <description>Recent content in Linux on EnguedellarOS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
+    <copyright>Copyright © 2008–2019</copyright>
     <lastBuildDate>Thu, 17 Sep 2020 19:21:42 +0200</lastBuildDate>
     
 	<atom:link href="https://franmauriz.github.io/EnguedellarOs/categories/linux/index.xml" rel="self" type="application/rss+xml" />
@@ -13,66 +14,56 @@
     
     <item>
       <title>Instalar Google Chrome en GNU/Linux</title>
-      <link>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-17-instalar-google-chrome/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-17-instalar-google-chrome/</link>
       <pubDate>Thu, 17 Sep 2020 19:21:42 +0200</pubDate>
       
-      <guid>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-17-instalar-google-chrome/</guid>
-      <description>Últimamente me preguntan muchas personas si en GNU/Linux se puede instalar Google Chrome, y si se puede, ¿como se haría la instalación?.
-Por eso voy a explicar la forma más sencilla de hacerlo y después otra manera ,también sencilla, pero con unos pocos más de pasos a seguir.
-Instalación desde el Centro de Software de la distro. Esta es una manera muy sencilla de instalar Google Chrome, incluso, cualquier otro programa que deseemos instalar.</description>
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-17-instalar-google-chrome/</guid>
+      <description>Últimamente me preguntan muchas personas si en GNU/Linux se puede instalar Google Chrome, y si se puede, ¿como se haría la instalación?</description>
     </item>
     
     <item>
       <title>Crea Tus Backups Con Back in time</title>
-      <link>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-14-crea-tus-backups-con-back_in_time/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-14-crea-tus-backups-con-back_in_time/</link>
       <pubDate>Mon, 14 Sep 2020 11:39:25 +0200</pubDate>
       
-      <guid>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-14-crea-tus-backups-con-back_in_time/</guid>
-      <description>Seguro que alguna vez te has lamentado de no tener una copia de seguridad de tus documentos de trabajo, las fotos de tus vacaciones o momentos familiares, etc.
-Es un sentimiento de impotencia y tristeza por que ya no puedes recuperarlos, con lo que no te daré el sermón de lo importante que es hacer los respaldos de nuestros datos.
-Pero te diré una forma sencilla y cómoda de poder realizarlas para que no te pase nunca más.</description>
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-14-crea-tus-backups-con-back_in_time/</guid>
+      <description>Seguro que alguna vez te has lamentado de no tener una copia de seguridad de tus documentos de trabajo, las fotos de tus vacaciones o momentos familiares, etc.</description>
     </item>
     
     <item>
       <title>Configurar red WiFi desde la terminal</title>
-      <link>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-11-red_wifi_desde_terminal/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-11-red_wifi_desde_terminal/</link>
       <pubDate>Fri, 11 Sep 2020 11:59:34 +0200</pubDate>
       
-      <guid>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-11-red_wifi_desde_terminal/</guid>
-      <description>Servicio iwd (iNet wireless daemon) Iwd es un demonio inalámbrico para Linux escrito por Intel. El objetivo principal del proyecto es optimizar la utilización de recursos al no depender de ninguna biblioteca externa y, en cambio, utilizar las funciones proporcionadas por el kernel de Linux en la mayor medida posible.
-Cabe destacar que iwd es compatible con connman y network-manager, estos pueden gestionar redes a través de iwd como backend.</description>
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-11-red_wifi_desde_terminal/</guid>
+      <description>Servicio iwd (iNet wireless daemon) Iwd es un demonio inalámbrico para Linux escrito por Intel. El objetivo principal del proyecto es optimizar la utilización de recursos al no depender de ninguna biblioteca externa y, en cambio, utilizar las funciones proporcionadas por el kernel de Linux en la mayor medida posible.</description>
     </item>
     
     <item>
       <title>Istalando KDE Neon</title>
-      <link>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-10-instalando-kde-neon/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-10-instalando-kde-neon/</link>
       <pubDate>Thu, 10 Sep 2020 07:40:36 +0200</pubDate>
       
-      <guid>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-10-instalando-kde-neon/</guid>
-      <description>Nuestra primera instalación con Kde Neon. ¡¡Vamos a instalar nuestra primera distribución GNU/Linux!! En otros post de EnguedellarOS ya he explicado como crear un USB de instalación y las consideraciones que debemos tener con la partición UEFI.
-En este articulo explicare los pasos necesarios para instalar la distro KDE Neon. Entre todas las distros GNU/Linux que existen escogí KDE Neon entre estas razones:
- Esta basada en Ubuntu 20.04 LTS una versión estable de largo plazo.</description>
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-10-instalando-kde-neon/</guid>
+      <description>Nuestra primera instalación con Kde Neon. ¡¡Vamos a instalar nuestra primera distribución GNU/Linux!! En otros post de EnguedellarOS ya he explicado como crear un USB de instalación y las consideraciones que debemos tener con la partición UEFI.</description>
     </item>
     
     <item>
       <title>Que es UEFI , GTP y ESP</title>
-      <link>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-08-dialogo_uefi/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-08-dialogo_uefi/</link>
       <pubDate>Tue, 08 Sep 2020 07:50:22 +0200</pubDate>
       
-      <guid>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-08-dialogo_uefi/</guid>
-      <description>Cuando vamos a instalar GNU/Linux , ya sea en una instalación dual con Windows o en una instalación individual, una de las primeras dificultades que nos encontramos es ¿Que es el UEFI? ¿es EFI o UEFI? ¿MBR o GPT?
-Con este pequeño articulo resumen intentare explicar de la forma más sencilla que significan estos términos para solventar las instalaciones de nuestros sistema favorito del GNU/Linux.
-EFI , UEFI , GPT y ESP Por la limitaciones de la Bios, se decidió crear una nueva especificación para sustituirla.</description>
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-08-dialogo_uefi/</guid>
+      <description>Cuando vamos a instalar GNU/Linux , ya sea en una instalación dual con Windows o en una instalación individual, una de las primeras dificultades que nos encontramos es ¿Que es el UEFI?</description>
     </item>
     
     <item>
       <title>Crear USB de instalación de distribución GNU/Linux</title>
-      <link>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-08-crear-usb-de-instalacion/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-08-crear-usb-de-instalacion/</link>
       <pubDate>Tue, 08 Sep 2020 07:40:36 +0200</pubDate>
       
-      <guid>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-08-crear-usb-de-instalacion/</guid>
-      <description>Como crear un USB de instalación para GNU/Linux Cuando por fin nos decidimos a probar o a instalar una distribución GNU/Linux , ya sea , Ubuntu,Linux mint, Fedora , etc. Esa distribución que hemos visto que nos gusta o se adecua a nuestras necesidades y a nuestro equipo tendremos que crear un USB de instalación o un USB booteable para poder arrancar el instalador en nuestro equipo.
-Los pasos a seguir son sencillos y tenemos muchas opciones para realizar el USB ejecutable.</description>
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-08-crear-usb-de-instalacion/</guid>
+      <description>Como crear un USB de instalación para GNU/Linux Cuando por fin nos decidimos a probar o a instalar una distribución GNU/Linux , ya sea , Ubuntu,Linux mint, Fedora , etc.</description>
     </item>
     
   </channel>

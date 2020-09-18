@@ -6,6 +6,7 @@
     <description>Recent content in Backup on EnguedellarOS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
+    <copyright>Copyright © 2008–2019</copyright>
     <lastBuildDate>Mon, 14 Sep 2020 11:39:25 +0200</lastBuildDate>
     
 	<atom:link href="https://franmauriz.github.io/EnguedellarOs/tags/backup/index.xml" rel="self" type="application/rss+xml" />
@@ -13,13 +14,11 @@
     
     <item>
       <title>Crea Tus Backups Con Back in time</title>
-      <link>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-14-crea-tus-backups-con-back_in_time/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-14-crea-tus-backups-con-back_in_time/</link>
       <pubDate>Mon, 14 Sep 2020 11:39:25 +0200</pubDate>
       
-      <guid>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-14-crea-tus-backups-con-back_in_time/</guid>
-      <description>Seguro que alguna vez te has lamentado de no tener una copia de seguridad de tus documentos de trabajo, las fotos de tus vacaciones o momentos familiares, etc.
-Es un sentimiento de impotencia y tristeza por que ya no puedes recuperarlos, con lo que no te daré el sermón de lo importante que es hacer los respaldos de nuestros datos.
-Pero te diré una forma sencilla y cómoda de poder realizarlas para que no te pase nunca más.</description>
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-14-crea-tus-backups-con-back_in_time/</guid>
+      <description>Seguro que alguna vez te has lamentado de no tener una copia de seguridad de tus documentos de trabajo, las fotos de tus vacaciones o momentos familiares, etc.</description>
     </item>
     
   </channel>

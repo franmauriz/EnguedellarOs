@@ -1,5 +1,5 @@
 ---
-title: "Contacto"
+title: "Sobre EnguedellarOS"
 date: 2020-09-07T18:23:00+02:00
 draft: false
 ---

@@ -1,24 +1,64 @@
 baseURL = "https://franmauriz.github.io/EnguedellarOs/"
 languageCode = "es"
 title = "EnguedellarOS"
-theme = "tale"
+#theme = "tale"
 enableRobotsTXT = true 
 
-[menu]
-  [[menu.main]]
-    identifier = "contacto"
-    name = "Contacto"
-    title = "Contacto"
-    url = "/Contacto/"
-    weight = 0
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    title = "Posts"
-    url = "/posts/"
-    weight = -1
+# baseURL = "https://gohugo.io/"
+
+#title = "Monopriv"
+languagecode = "es"
+author = "Francisco Mauriz Pereira"
+copyright = "Copyright © 2008–2019" #supports html markup
+paginate = 3
+#languageCode = "en"
+DefaultContentLanguage = "es"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+googleAnalytics = "UA-123-45"
+disqusShortname = "Fran"
+theme = "monopriv"
+enableEmoji = true
+summaryLength = 20
+
+[params]  
+about = "EnguedellarOS pretende ser un proyecto para dar a conocer el Software libre y el universo GNU/Linux"
+github = "https://github.com/franmauriz"
+gitlab = "https://gitlab.com/franmauriz"
+email = "franmaurizpereira@yandex.com"
+# site meta description
+metadesc = "EnguedellarOS pretende ser un proyecto para dar a conocer el Software libre y el universo GNU/Linux"
+# site meta keywords
+metakeys = "GNU, linux, software, libre"
+# enable/disable disqus comments 
+disqus = false 
+# enable/disable google analytics 
+analytics = false
+
+[params.search] # Site search powered by DuckDuckGo
+enabled = true
+placeholder="Site Search"
+
+[params.hero]
+enabled = true
+img = "img/logo.jpg"
 
 
-[author]
-  name = "Francisco Mauriz Pereira"
-  homepage = "localhost"
+#[menu]
+#  [[menu.main]]
+#    identifier = "contacto"
+#    name = "Contacto"
+#    title = "Contacto"
+#    url = "/Contacto/"
+#    weight = 0
+#  [[menu.main]]
+#    identifier = "posts"
+#    name = "Posts"
+#    title = "Posts"
+#    url = "/posts/"
+#    weight = -1
+
+
+#[author]
+#  name = "Francisco Mauriz Pereira"
+#  homepage = "localhost"

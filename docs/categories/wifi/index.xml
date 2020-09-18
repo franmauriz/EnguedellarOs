@@ -6,6 +6,7 @@
     <description>Recent content in Wifi on EnguedellarOS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
+    <copyright>Copyright © 2008–2019</copyright>
     <lastBuildDate>Fri, 11 Sep 2020 11:59:34 +0200</lastBuildDate>
     
 	<atom:link href="https://franmauriz.github.io/EnguedellarOs/categories/wifi/index.xml" rel="self" type="application/rss+xml" />
@@ -13,12 +14,11 @@
     
     <item>
       <title>Configurar red WiFi desde la terminal</title>
-      <link>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-11-red_wifi_desde_terminal/</link>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-11-red_wifi_desde_terminal/</link>
       <pubDate>Fri, 11 Sep 2020 11:59:34 +0200</pubDate>
       
-      <guid>https://franmauriz.github.io/EnguedellarOs/posts/2020-09-11-red_wifi_desde_terminal/</guid>
-      <description>Servicio iwd (iNet wireless daemon) Iwd es un demonio inalámbrico para Linux escrito por Intel. El objetivo principal del proyecto es optimizar la utilización de recursos al no depender de ninguna biblioteca externa y, en cambio, utilizar las funciones proporcionadas por el kernel de Linux en la mayor medida posible.
-Cabe destacar que iwd es compatible con connman y network-manager, estos pueden gestionar redes a través de iwd como backend.</description>
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-11-red_wifi_desde_terminal/</guid>
+      <description>Servicio iwd (iNet wireless daemon) Iwd es un demonio inalámbrico para Linux escrito por Intel. El objetivo principal del proyecto es optimizar la utilización de recursos al no depender de ninguna biblioteca externa y, en cambio, utilizar las funciones proporcionadas por el kernel de Linux en la mayor medida posible.</description>
     </item>
     
   </channel>
