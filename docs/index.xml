@@ -36,7 +36,7 @@
       <pubDate>Fri, 11 Sep 2020 11:59:34 +0200</pubDate>
       
       <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-11-red_wifi_desde_terminal/</guid>
-      <description>Servicio iwd (iNet wireless daemon) Iwd es un demonio inalámbrico para Linux escrito por Intel. El objetivo principal del proyecto es optimizar la utilización de recursos al no depender de ninguna biblioteca externa y, en cambio, utilizar las funciones proporcionadas por el kernel de Linux en la mayor medida posible.</description>
+      <description>Servicio iwd (iNet wireless daemon) Iwd es un demonio inalámbrico para Linux escrito por Intel.</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Thu, 10 Sep 2020 07:40:36 +0200</pubDate>
       
       <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-10-instalando-kde-neon/</guid>
-      <description>Nuestra primera instalación con Kde Neon. ¡¡Vamos a instalar nuestra primera distribución GNU/Linux!! En otros post de EnguedellarOS ya he explicado como crear un USB de instalación y las consideraciones que debemos tener con la partición UEFI.</description>
+      <description>Nuestra primera instalación con Kde Neon. ¡¡Vamos a instalar nuestra primera distribución GNU/Linux!</description>
     </item>
     
     <item>
@@ -72,8 +72,7 @@
       <pubDate>Mon, 07 Sep 2020 18:23:00 +0200</pubDate>
       
       <guid>https://franmauriz.github.io/EnguedellarOs/about/</guid>
-      <description>EnguedellarOS pretende ser un proyecto para dar a conocer el Software libre y el universo GNU/Linux.
-Pero EnguedellarOS viene de la palabra gallega &amp;lsquo;enguedellar&amp;rsquo; que significa mezclar de manera confusa cosas, ideas,etc.</description>
+      <description>EnguedellarOS pretende ser un proyecto para dar a conocer el Software libre y el universo GNU/Linux.</description>
     </item>
     
   </channel>

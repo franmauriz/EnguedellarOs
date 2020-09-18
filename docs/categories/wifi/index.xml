@@ -18,7 +18,7 @@
       <pubDate>Fri, 11 Sep 2020 11:59:34 +0200</pubDate>
       
       <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-11-red_wifi_desde_terminal/</guid>
-      <description>Servicio iwd (iNet wireless daemon) Iwd es un demonio inalámbrico para Linux escrito por Intel. El objetivo principal del proyecto es optimizar la utilización de recursos al no depender de ninguna biblioteca externa y, en cambio, utilizar las funciones proporcionadas por el kernel de Linux en la mayor medida posible.</description>
+      <description>Servicio iwd (iNet wireless daemon) Iwd es un demonio inalámbrico para Linux escrito por Intel.</description>
     </item>
     
   </channel>
