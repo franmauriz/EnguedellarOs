@@ -1,6 +1,6 @@
 ---
 title: "Paquetes deb y rpm"
-date: 2020-09-21T19:21:42+02:00
+date: 2020-09-21T16:21:42+02:00
 author: Francisco Mauriz Pereira
 categories: [Linux,aplicaciones,paquetes]
 tags: [Linux,instalacion,paquetes]

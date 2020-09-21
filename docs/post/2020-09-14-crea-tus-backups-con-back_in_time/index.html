@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+	<meta charset="utf-8">
+	<meta name="description" content='EnguedellarOS pretende ser un proyecto para dar a conocer el Software libre y el universo GNU/Linux'>
+	
+		
+		<meta name="keywords" content='Linux, Backup, Seguridad, '>
+	
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="generator" content="Hugo 0.69.0" />
+	<link rel="stylesheet" type="text/css" href='https://franmauriz.github.io/EnguedellarOs/css/bootstrap.min.css'>
+	<title>Crea Tus Backups Con Back in time</title>
+</head>
+<body>
+      <div id="content"><nav class="navbar text-center sticky-top bg-white mt-2 mb-5">
+    <a href='https://franmauriz.github.io/EnguedellarOs/'><span class="btn btn-sm btn-outline-primary">Home</span></a>
+    <a href='https://franmauriz.github.io/EnguedellarOs/about'><span class="btn btn-sm btn-outline-secondary">About</span></a>
+    <a href='https://franmauriz.github.io/EnguedellarOs/post'><span class="btn btn-sm btn-outline-success">Blog</span></a>
+    <a href='https://franmauriz.github.io/EnguedellarOs/tags'><span class="btn btn-sm btn-outline-warning">Tags</span></a>
+</nav>
+
+
+	<section class="container text-justified mt-3">
+	  <h2 class="font-weight-bold">Crea Tus Backups Con Back in time</h2>
+	  <small class="text-secondary mb-5">Posted on September 14, 2020 | 4 minute read</small>
+	  <div class="text-monospace mt-2">
+		  <p>Seguro que alguna vez te has lamentado de no tener una copia de seguridad de tus documentos de trabajo, las fotos de tus vacaciones o momentos familiares, etc.</p>
+<p>Es un sentimiento de impotencia y tristeza por que ya no puedes recuperarlos, con lo que no te daré el sermón de lo importante que es hacer los respaldos de nuestros datos.</p>
+<p>Pero te diré una forma sencilla y cómoda de poder realizarlas para que no te pase nunca más.</p>
+<p>Con <strong>Back In Time</strong> crearás tus copias de seguridad en el momento o programarlas para que no te tengas que preocupar de hacerlo, ya que la aplicación lo hará automáticamente.</p>
+<p><strong>Back In Time</strong> usa rsync como backend y tiene la característica de usar enlaces físicos para archivos que no han cambiado en una instantánea diferente, por lo que que ocupa espacio en el disco solo una vez para los archivos que no se modificaron.</p>
+<p>Es posible utilizar varios perfiles de copia de seguridad.</p>
+<p>Las copias de seguridad se guardan en texto plano , con lo que con nuestro gestor de archivos podemos navegar dentro del respaldo.</p>
+<p>Las propiedades como los permisos de los archivos se guarda en un archivo comprimido aparte. Esto lo hace para evitar conflictos con el dispositivo donde se guardan los respaldos por si no soporta permisos, Back In Time, utiliza el archivo para restaurar los permisos.</p>
+<h2 id="instalación-de-back-in-time">Instalación de Back In Time</h2>
+<p>Como en el articulo anterior instalamos KDE Neon, voy a realizar la instalación desde ahi.</p>
+<p>Abrimos la terminal, y escribimos el siguiente comando:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt install backintime-qt
+</code></pre></div><p><img src="/EnguedellarOs/images/backintime_01.png" alt="Instalación"></p>
+<p>Después de escribir la contraseña de administrador empezará la instalación.</p>
+<h2 id="proceso-para-crear-copia-de-seguridad">Proceso para crear copia de seguridad.</h2>
+<p><img src="/EnguedellarOs/images/backintime_02.png" alt="General"></p>
+<h3 id="1-pestaña-general">1. <strong>Pestaña General</strong>:</h3>
+<p>Aquí le indicaremos el modo en el cual queremos hacer las copias. Para eso disponemos de varios modos:</p>
+<ul>
+<li><em><strong>Local</strong></em>: Este modo ha ce referencia a almacenamiento en nuestro propio equipo, o en unidades montadas. Pero tenemos que tener en cuenta que el sistema de archivos de destino como el protocolo utilizado para montar la unidad deben soportar enlaces duros y simbólicos.</li>
+<li><em><strong>Cifrado Local</strong></em>: Funciona igual que el modo <em>Local</em> pero la copia se guardan cifrados con <strong>EncFS</strong>.</li>
+<li><em><strong>SSH</strong></em>: Este modo nos permite guardar nuestras copias de seguridad en un dispositivo remoto utilizando SSH.</li>
+<li><em><strong>Encriptado SSH</strong></em>: Es igual que el modo <em>SSH</em>, pero los respaldos se guardan cifrados utilizando <strong>EncFS</strong>.</li>
+</ul>
+<p>En <strong>Dónde guardar las instantáneas</strong> le indicaremos el dispositivo local o remoto donde guardar el respaldo.</p>
+<p>En el grupo <strong>Avanzado</strong> le indicamos el *<em>Nombre del Ordenador</em> del que queremos hacer la copia de seguridad, el <em>Usuario</em>. Aunque estos datos los cumplimentará <em>Back In Time</em> automáticamente con lo que dejamos los datos que nos muestra por defecto.</p>
+<p>En <strong>Tareas programadas</strong> podremos decidir cuando queremos que realice el respaldo, ya sea indicándole un día y hora concretos, que sea una vez al mes, a la semana o incluso al conectar un dispositivo externo o al encender el equipo, etc. *<em>Back In Time</em> nos ofrece un gran abanico de posibilidades.</p>
+<h3 id="2-pestaña-incluir-y-excluir">2. <strong>Pestaña Incluir y Excluir</strong>:</h3>
+<p><img src="/EnguedellarOs/images/backintime_03.png" alt="Incluir"></p>
+<p>En la pestaña <strong>Incluir</strong> es donde escogeremos los archivos o directorios de los que queremos realizar la copia de seguridad. Solo tenemos que ir añadiéndolo  pulsando el botón <em>Añadir archivo</em> para agregar los archivos o pulsar <em>Añadir carpeta</em> en el caso de querer agregar directorios a la copia.</p>
+<p><img src="/EnguedellarOs/images/backintime_04.png" alt="Excluir">
+La pestaña <strong>Excluir</strong> funciona igual que la pestaña <em>Incluir</em> pero al revés, los archivos y directorios que indiquemos aquí, <strong>NO</strong> se realizara copia de ellos.</p>
+<h3 id="3-pestaña-auto-eliminar">3. <strong>Pestaña Auto eliminar</strong>:</h3>
+<p><img src="/EnguedellarOs/images/backintime_05.png" alt="Incluir"></p>
+<p>En esta pestaña podremos eliminar aquellos respaldos según lo configuremos.</p>
+<ul>
+<li>Respaldos que tengan una edad superior a un límite prefijado.</li>
+<li>Cuando el espacio libre sea inferior a un determinado límite.</li>
+<li>Cuando el nodo de inodos libres sea inferior a un valor prefijado.</li>
+</ul>
+<h3 id="4-pestaña-auto-opciones-y-opciones-avanzadas">4. <strong>Pestaña Auto Opciones y Opciones Avanzadas</strong>:</h3>
+<p>Con estas pestañas podremos configurar el funcionamiento de la aplicación.</p>
+<p><img src="/EnguedellarOs/images/backintime_06.png" alt="Opciones">
+<img src="/EnguedellarOs/images/backintime_07.png" alt="Opciones Avanzadas"></p>
+<p>Cuando ya tenemos la configuración de nuestra copia de seguridad ya podremos realizar la instantánea pulsando el botón <strong>Tomar instantánea</strong></p>
+<p><img src="/EnguedellarOs/images/backintime_08.png" alt="Tomar instantánea"></p>
+<p>Y podremos ver ne la parte inferior de la ventana como va el proceso y que ficheros o directorios esta copiando.</p>
+<p><img src="/EnguedellarOs/images/backintime_09.png" alt="Finalizado"></p>
+<p>Y Cuando termine ya tendremos nuestros datos respaldados en el soporte que hayamos usado para almacenarlo y la tranquilidad de que no los vamos a perder. Los respaldos son una medida de seguridad fundamental para evitar problemas futuros, y <strong>Back In Time</strong> te simplificará considerablemente este tedioso trabajo.</p>
+
+	  </div>
+	  <hr>
+	  <div>Share via
+	  <a title='email' href='mailto:?subject=Crea%20Tus%20Backups%20Con%20Back%20in%20time&body=https%3a%2f%2ffranmauriz.github.io%2fEnguedellarOs%2fpost%2f2020-09-14-crea-tus-backups-con-back_in_time%2f'><button class='btn btn-sm btn-light'>✉️</button></a>
+	  
+	  </div>
+	  <br>
+	  <code>Tags:<span class='badge badge-dark'><a class='text-white' href='https://franmauriz.github.io/EnguedellarOs/tags/linux'>Linux</a></span>
+	  <span class='badge badge-dark'><a class='text-white' href='https://franmauriz.github.io/EnguedellarOs/tags/backup'>Backup</a></span>
+	  <span class='badge badge-dark'><a class='text-white' href='https://franmauriz.github.io/EnguedellarOs/tags/seguridad'>Seguridad</a></span>
+	  
+	  </code>
+	  <br>
+	    
+	</section>
+
+
+    <div class="container text-center mt-3">
+    <iframe src="https://duckduckgo.com/search.html?site=https://franmauriz.github.io/EnguedellarOs/&prefill=Site%20Search" style="overflow:hidden;margin:0;padding:0;max-width:80%;height:40px;" frameborder="0"></iframe>
+</div>
+
+
+      </div>
+  </body><footer>
+  <div class="container-fluid bg-dark text-white text-monospace text-center mt-2">
+    <small>Copyright © 2008–2019</small>
+  </div>
+  
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+  
+
+</footer>
+<div>
+</div>
+</html>
