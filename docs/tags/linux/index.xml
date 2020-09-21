@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on EnguedellarOS</title>
+    <link>https://franmauriz.github.io/EnguedellarOs/tags/linux/</link>
+    <description>Recent content in Linux on EnguedellarOS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>Copyright © 2008–2019</copyright>
+    <lastBuildDate>Thu, 17 Sep 2020 19:21:42 +0200</lastBuildDate>
+    
+	<atom:link href="https://franmauriz.github.io/EnguedellarOs/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Instalar Google Chrome en GNU/Linux</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-17-instalar-google-chrome/</link>
+      <pubDate>Thu, 17 Sep 2020 19:21:42 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-17-instalar-google-chrome/</guid>
+      <description>Últimamente me preguntan muchas personas si en GNU/Linux se puede instalar Google Chrome, y si se puede, ¿como se haría la instalación?</description>
+    </item>
+    
+    <item>
+      <title>Crea Tus Backups Con Back in time</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-14-crea-tus-backups-con-back_in_time/</link>
+      <pubDate>Mon, 14 Sep 2020 11:39:25 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-14-crea-tus-backups-con-back_in_time/</guid>
+      <description>Seguro que alguna vez te has lamentado de no tener una copia de seguridad de tus documentos de trabajo, las fotos de tus vacaciones o momentos familiares, etc.</description>
+    </item>
+    
+    <item>
+      <title>Configurar red WiFi desde la terminal</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-11-red_wifi_desde_terminal/</link>
+      <pubDate>Fri, 11 Sep 2020 11:59:34 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-11-red_wifi_desde_terminal/</guid>
+      <description>Servicio iwd (iNet wireless daemon) Iwd es un demonio inalámbrico para Linux escrito por Intel.</description>
+    </item>
+    
+    <item>
+      <title>Istalando KDE Neon</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-10-instalando-kde-neon/</link>
+      <pubDate>Thu, 10 Sep 2020 07:40:36 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-10-instalando-kde-neon/</guid>
+      <description>Nuestra primera instalación con Kde Neon. ¡¡Vamos a instalar nuestra primera distribución GNU/Linux!</description>
+    </item>
+    
+    <item>
+      <title>Que es UEFI , GTP y ESP</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-08-dialogo_uefi/</link>
+      <pubDate>Tue, 08 Sep 2020 07:50:22 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-08-dialogo_uefi/</guid>
+      <description>Cuando vamos a instalar GNU/Linux , ya sea en una instalación dual con Windows o en una instalación individual, una de las primeras dificultades que nos encontramos es ¿Que es el UEFI?</description>
+    </item>
+    
+    <item>
+      <title>Crear USB de instalación de distribución GNU/Linux</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-08-crear-usb-de-instalacion/</link>
+      <pubDate>Tue, 08 Sep 2020 07:40:36 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-08-crear-usb-de-instalacion/</guid>
+      <description>Como crear un USB de instalación para GNU/Linux Cuando por fin nos decidimos a probar o a instalar una distribución GNU/Linux , ya sea , Ubuntu,Linux mint, Fedora , etc.</description>
+    </item>
+    
+  </channel>
+</rss>
