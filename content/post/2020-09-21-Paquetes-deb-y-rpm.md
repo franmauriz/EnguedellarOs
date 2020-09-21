@@ -6,6 +6,13 @@ categories: [Linux,aplicaciones,paquetes]
 tags: [Linux,instalacion,paquetes]
 draft: false
 ---
+Los paquetes deb son archivos **.ar estándar de Unix** que incluyen dos archivos **.tar en formato gzip, bzip2 o lzma**, uno de los cuales alberga la información de control y el otro los datos de los paquetes.
+
+Estos paquetes contienen tres archivos:
+
+- **debian-binary** que es el  número de versión del formato deb.
+- **control.tar.gz** contiene toda la meta-información del paquete.
+- **data.tar, data.tar.gz, data.tar.bz2 o data.tar.lzma** son todos los archivos a instalar.
 
 ## Instalar paquetes .deb
 
@@ -25,9 +32,9 @@ Como ya hemos indicado antes para poder instalar estos paquetes podemos usar int
     dpkg -r paquete.deb
     dpkg -P paquete.deb (esta última borra todos los datos del programa)1​
 ```
-
-## Paquetes .rpm
-
+    
+## Paquetes .rpm    
+    
  RPM Package Manager
  : Es una herramienta de administración de paquetes pensada básicamente para GNU/Linux. Es capaz de instalar, actualizar, desinstalar, verificar y solicitar programas. RPM es el formato de paquete de partida del Linux Standard Base.
 
