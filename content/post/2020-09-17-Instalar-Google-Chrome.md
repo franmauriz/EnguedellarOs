@@ -3,7 +3,7 @@ title: "Instalar Google Chrome en GNU/Linux"
 date: 2020-09-17T19:21:42+02:00
 author: Francisco Mauriz Pereira
 categories: [Linux,aplicaciones,Google Chrome]
-tags: [Linux,instalacion, Google Chrome]
+tags: [Linux,instalación, Google Chrome]
 draft: false
 ---
 

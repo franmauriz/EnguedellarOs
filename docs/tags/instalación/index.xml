@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>Copyright © 2008–2019</copyright>
-    <lastBuildDate>Thu, 10 Sep 2020 07:40:36 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2020 16:21:42 +0200</lastBuildDate>
     
 	<atom:link href="https://franmauriz.github.io/EnguedellarOs/tags/instalaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Paquetes deb y rpm</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-21-paquetes-deb-y-rpm/</link>
+      <pubDate>Mon, 21 Sep 2020 16:21:42 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-21-paquetes-deb-y-rpm/</guid>
+      <description>Los paquetes deb son archivos .ar estándar de Unix que incluyen dos archivos .</description>
+    </item>
+    
+    <item>
+      <title>Instalar Google Chrome en GNU/Linux</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-17-instalar-google-chrome/</link>
+      <pubDate>Thu, 17 Sep 2020 19:21:42 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-17-instalar-google-chrome/</guid>
+      <description>Últimamente me preguntan muchas personas si en GNU/Linux se puede instalar Google Chrome, y si se puede, ¿como se haría la instalación?</description>
+    </item>
     
     <item>
       <title>Istalando KDE Neon</title>
