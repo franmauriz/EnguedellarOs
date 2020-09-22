@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>Copyright © 2008–2019</copyright>
-    <lastBuildDate>Mon, 21 Sep 2020 16:21:42 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://franmauriz.github.io/EnguedellarOs/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,10 @@
     <item>
       <title>Paquetes deb y rpm</title>
       <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-21-paquetes-deb-y-rpm/</link>
-      <pubDate>Mon, 21 Sep 2020 16:21:42 +0200</pubDate>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-21-paquetes-deb-y-rpm/</guid>
-      <description>Los paquetes deb son archivos .ar estándar de Unix que incluyen dos archivos .</description>
+      <description>¿Que son los paquetes .deb y .rpm?. Los paquetes deb son archivos .</description>
     </item>
     
     <item>

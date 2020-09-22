@@ -1,11 +1,15 @@
 ---
 title: "Paquetes deb y rpm"
-date: 2020-09-21T16:21:42+02:00
+date: 2020-09-21
 author: Francisco Mauriz Pereira
 categories: [Linux,aplicaciones,paquetes]
 tags: [Linux,instalación,paquetes]
 draft: false
 ---
+
+
+# ¿Que son los paquetes .deb y .rpm?.
+
 Los paquetes deb son archivos **.ar estándar de Unix** que incluyen dos archivos **.tar en formato gzip, bzip2 o lzma**, uno de los cuales alberga la información de control y el otro los datos de los paquetes.
 
 Estos paquetes contienen tres archivos:
