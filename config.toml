@@ -15,7 +15,7 @@ paginate = 3
 DefaultContentLanguage = "es"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
-googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-178748329-1"
 disqusShortname = "Fran"
 theme = "monopriv"
 enableEmoji = true
@@ -36,7 +36,7 @@ disqus = false
 analytics = true
 
 [params.search] # Site search powered by DuckDuckGo
-enabled = false
+enabled = true
 placeholder="Buscar en EnguedellarOS"
 
 [params.hero]
@@ -62,3 +62,6 @@ img = "img/logo.jpg"
 #[author]
 #  name = "Francisco Mauriz Pereira"
 #  homepage = "localhost"
+
+
+
