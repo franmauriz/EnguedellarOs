@@ -37,7 +37,7 @@ analytics = true
 
 [params.search] # Site search powered by DuckDuckGo
 enabled = true
-placeholder="Site Search"
+placeholder="Buscar en EnguedellarOS"
 
 [params.hero]
 enabled = true
