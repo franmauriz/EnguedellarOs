@@ -41,7 +41,7 @@ placeholder="Buscar en EnguedellarOS"
 
 [params.hero]
 enabled = true
-img = "img/logo.jpg"
+img = "img/logo.png"
 
 
 #[menu]
