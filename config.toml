@@ -33,10 +33,10 @@ metakeys = "GNU, linux, software, libre"
 # enable/disable disqus comments 
 disqus = false 
 # enable/disable google analytics 
-analytics = true
+analytics = false
 
 [params.search] # Site search powered by DuckDuckGo
-enabled = true
+enabled = false
 placeholder="Buscar en EnguedellarOS"
 
 [params.hero]

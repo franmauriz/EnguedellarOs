@@ -12,9 +12,4 @@ Os presento en el video el proceso de instalación de sistema operativo de GNU/L
 Os dejo con el video y espero que os guste y os ayude en la instalación de Fedora que es una gran distro. 
 
 
-<video width="640" height="480" controls>
-  <source src="https://ia801404.us.archive.org/33/items/fedora_32_btrfs/fedora_32_btrfs.mp4" type="video/mp4" />
-  <source src="https://ia601404.us.archive.org/33/items/fedora_32_btrfs/fedora_32_btrfs.ogv" type="video/ogv" />
-  <img src="https://ia601404.us.archive.org/33/items/fedora_32_btrfs/__ia_thumb.jpg" alt="Video no soportado" />
-  Su navegador no soporta contenido multimedia.
-</video>
+<iframe src="https://archive.org/embed/fedora_32_btrfs" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
