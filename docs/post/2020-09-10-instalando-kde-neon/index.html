@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+	<meta charset="utf-8">
+	<meta name="description" content='EnguedellarOS pretende ser un proyecto para dar a conocer el Software libre y el universo GNU/Linux'>
+	
+		
+		<meta name="keywords" content='Linux, instalación, empezando, '>
+	
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="generator" content="Hugo 0.73.0" />
+	<link rel="stylesheet" type="text/css" href='https://franmauriz.github.io/EnguedellarOs/css/bootstrap.min.css'>
+	<title>Istalando KDE Neon</title>
+</head>
+<body>
+      <div id="content"><nav class="navbar text-center sticky-top bg-white mt-2 mb-5">
+    <a href='https://franmauriz.github.io/EnguedellarOs'><span class="btn btn-sm btn-outline-primary">Home</span></a>
+    <a href='https://franmauriz.github.io/EnguedellarOs/about'><span class="btn btn-sm btn-outline-secondary">About</span></a>
+    <a href='https://franmauriz.github.io/EnguedellarOs/post'><span class="btn btn-sm btn-outline-success">Blog</span></a>
+    <a href='https://franmauriz.github.io/EnguedellarOs/tags'><span class="btn btn-sm btn-outline-warning">Tags</span></a>
+</nav>
+
+
+	<section class="container text-justified mt-3">
+	  <h2 class="font-weight-bold">Istalando KDE Neon</h2>
+	  <small class="text-secondary mb-5">Posted on September 10, 2020 | 8 minute read</small>
+	  <div class="text-monospace mt-2">
+		  <h1 id="nuestra-primera-instalación-con-kde-neon">Nuestra primera instalación con Kde Neon.</h1>
+<p><img src="/images/kde_neon01.jpg" alt="Kde Neon"></p>
+<h2 id="vamos-a-instalar-nuestra-primera-distribución-gnulinux">¡¡Vamos a instalar nuestra primera distribución GNU/Linux!!</h2>
+<p>En otros post de <strong>EnguedellarOS</strong> ya he explicado como crear un USB de instalación y las consideraciones que debemos tener  con la partición <em>UEFI</em>.</p>
+<p>En este articulo explicare los pasos necesarios para instalar la distro <a href="https://neon.kde.org/index">KDE Neon</a>. Entre todas las distros GNU/Linux que existen escogí <strong>KDE Neon</strong> entre estas razones:</p>
+<ol>
+<li>Esta basada en Ubuntu 20.04 LTS una versión estable de largo plazo.</li>
+<li>Como entorno de trabajo, evidentemente, usa <strong>Plasma Desktp</strong> en su version más actual que es el escritorio creado por KDE. Para los iniciados en GNU/Linux que están acostumbrados al escritorio de Windows, el cambio entre uno y otro será más sencillo y de una forma más natural.</li>
+<li>Viene con las aplicaciones de KDE ya preinstaladas con lo que desde el primer inicio ya podremos ponernos a trabajar, navegar por internet y ver nuestros videos.</li>
+<li>Por la gran comunidad de KDE que existe en internet, que crea una gran multitud de documentación y la comparte libremente para dar soporte a los usuarios que puedan tener un problema o quieran profundizar más en el mundo GNU/Linux.</li>
+<li>Aunque al principio puede asustar, también una de sus grandes ventajas frente a otros escritorios es que Plasma es altamente configurable dejándonos cambiar las ventanas, los iconos, los paneles, los menús , etc.</li>
+<li>Los requisitos mínimos del sistema requieren:
+<ol>
+<li>64-bit PC (Intel or AMD).</li>
+<li>2GB memoria.</li>
+<li>10GB espacio en disco.</li>
+</ol>
+</li>
+</ol>
+<p>Una vez que ya hemos creado el USB con la imagen de KDE Neon que puedes descargar desde <a href="https://neon.kde.org/download">aquí</a> solo tenemos que conectar el USB a nuestro equipo, pero antes debemos de asegurarnos de dos configuraciones en la BIOS.</p>
+<ul>
+<li>¿El UEFI esta activado o desactivado? sino lo esta recomiendo activarlo</li>
+<li>Tenemos que cambiar la secuencia de arranque en la BIOS en la opción de Boot para indicar que arranque primero desde el USB.</li>
+</ul>
+<p>Ya tenemos el equipo configurado para proceder a instalar <strong>KDE Neon</strong>. Conectamos el USB y encendemos el equipo, si todo ha ido bien, aparecerá el escritorio de KDE Neon.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_inicio02.png" alt="Escritorio"></p>
+<p>Desde aquí podemos probar el funcionamiento de KDE Neon en nuestros ordenador, por ejemplo, si el wifi funciona y detecta nuestra red de casa, si no consume muchos recursos de nuestra maquina. Si estamos contentos como funciona y no hay problemas con el icono del escritorio <strong>Install System</strong> empezaremos con la instalación.</p>
+<p>En primer lugar tenemos la ventana de <strong>Welcome</strong>.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_welcome03.png" alt="Welcome"></p>
+<p>Aquí escogeremos el idioma para que el instalador se cambie a nuestra lengua y se instale, es este caso, en Español. Después pulsamos <em>Siguiente</em>.</p>
+<p>Se cambiara la pantalla a la ventana <strong>Ubicación</strong>.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_location04.png" alt="Ubicación"></p>
+<p>Marcaremos en el mapa en el país donde nos encontramos para que el sistema configure nuestra zona horaria.</p>
+<p>Ahora pasamos a la siguiente pantalla donde configuraremos el <strong>Teclado</strong> de nuestro equipo.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_teclado05.png" alt="Teclado"></p>
+<p>Le indicaremos el lenguaje que debe de usar nuestro teclado, en la parte inferior de la ventana encontramos una caja de texto donde podemos comprobar que las teclas del teclado funciona correctamente sin mostrar caracteres extraños.</p>
+<p>Ahora pasaremos al proceso más complicado y delicado de la instalación la creación de particiones en nuestro disco duro o SSD.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_particion06.png" alt="Particiones"></p>
+<p>Antes de seguir, tengo que hacer una aclaración, para hacer el articulo estoy usando una <em>maquina virtual</em> <em>QUEMU</em> para instalar <strong>KDE Neon</strong> ya que no dispongo de un equipo de pruebas. ¿Por qué digo esto? por que en este apartado habréis notado, que a vosotros os aparecen más opciones que las que indico en la imagen.</p>
+<blockquote>
+<p>En primer opción tendréis <strong>Instalar KDE Neon junto a otro sistema operativo</strong>, en esta opción, es el propio instalador de KDE Neon quien se encargará de crear las particiones y instalar el <em>Grub</em> para que nuestro equipo se configure para disponer de los dos sistemas operativos. No me aparecen por hacer la instalación en una maquina virtual.</p>
+</blockquote>
+<p>Pero vamos a concentrarnos en la opción de crear el <strong>Particonado Manual.</strong> Asi tendremos mejor control sobre la instalación y la organización de nuestro disco duro.</p>
+<p>Hacemos check en <strong>Particonado Manual.</strong> y después a <em>Siguiente</em>, no encontramos ahora en la próxima pantalla.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_particonado07.png" alt="Particones"></p>
+<p>Si os fijasteis, en la ventana anterior en la parte superior izquierda el instalador de KDE nos informaba que estamos haciendo una instalación sobre BIOS, es decir, no tenemos UEFI, eso es debido por que usamos la maquina virtual.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_particion07_1.png" alt="Particones"></p>
+<p>Explicare la diferencia entre las dos instalaciones. Por ahora vamos a realizar un proceso común a las dos formas, y es crear una tabla de particiones nueva, como es evidente, tendremos que pulsar el botón <strong>Nueva tabla de particiones</strong> y obtendremos la siguiente ventana.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_particonado09.png" alt="Tabla de particiones"></p>
+<p>A la pregunta de que tipo de tabla deseamos crear le responderemos un <em><strong>Tabla de Particiones GUID(GPT)</strong></em>. Aunque GPT es una característica de UEFI también es compatible con BIOS con lo que funciona perfectamente.</p>
+<p>Después nos indicara que tenemos una partición creada con <em>Espacio libre</em>. Haciendo doble click sobre ese texto ya podremos crear nuestras particiones.</p>
+<h3 id="_crear-partición-boot-con-uefi_"><em>Crear partición boot con UEFI</em></h3>
+<p>Voy a explicar como crear la partición EFI si lo tenemos activo en la BIOS.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_efi10.png" alt="EFI"></p>
+<p>Como podéis ver cuando creamos una partición nueva nos sale la ventana anterior, y tendremos que cumplimentar los campos que nos solicita:</p>
+<dl>
+<dt>Tamaño</dt>
+<dd>Es el tamaño de nuestra partición en megabytes.</dd>
+</dl>
+<blockquote>
+<p>El tamaño para la partición boot/efi es suficiente con 300MiB.</p>
+</blockquote>
+<dl>
+<dt>Sistema de archivos</dt>
+<dd>El sistema de archivos o sistema de ficheros es el componente del sistema operativo encargado de administrar y facilitar el uso de las memorias periféricas, ya sean secundarias o terciarias.</dd>
+</dl>
+<blockquote>
+<p>Es importante que para esta partición el tipo sea FAT32</p>
+</blockquote>
+<dl>
+<dt>Punto de Montaje</dt>
+<dd>es un proceso mediante el cual el sistema operativo hace que los archivos y directorios de un dispositivo de almacenamiento (como un disco duro , CD-ROM o un recurso compartido de red ) estén disponibles para que los usuarios accedan a través del sistema de archivos de la computadora.</dd>
+</dl>
+<blockquote>
+<p>De las opciones que os aparecen escoger /boot/efi</p>
+</blockquote>
+<p>Y ya tenemos la partición de inicio para que el UEFI reconozca nuestro sistema en el arranque del equipo.</p>
+<h3 id="_crear-partición-boot-sin-uefi_"><em>Crear partición boot sin UEFI</em></h3>
+<p>El proceso es similar al anterior descrito pero cambiando los valores según nuestra necesidades.</p>
+<ol>
+<li>En el campo <em><strong>Tamaño</strong></em> recomiendo unos <strong>500MiB</strong>.</li>
+<li>En el campo <em><strong>Sistema de Archivos</strong></em> seleccionaremos la opción <strong>Ext4</strong>.</li>
+<li>En el campo <em><strong>Punto de Montaje</strong></em> indicaremos <strong>/boot</strong></li>
+</ol>
+<h2 id="ahora-le-toca-el-turno-a-las-demás-particiones-de-nuestro-sistema">¡Ahora le toca el turno a las demás particiones de nuestro sistema!</h2>
+<p>A partir de ahora el proceso es exactamente igual tengamos o no tengamos UEFI.</p>
+<p>Crearemos la partición <strong>root</strong> donde se instalara el sistema GNU/Linux.Tan solo tenemos que cambiar el campo <em><strong>Punto de Montaje</strong></em> por <strong>/</strong> que significa que es la raíz del sistema e indicarle el tamaño que deseamos en el campo <em><strong>Tamaño</strong></em>. En el campo <em><strong>Sistema de archivos</strong></em> indicaremos el mismo que la partición /boot</p>
+<blockquote>
+<p>Con el tiempo experimentaras con otros tipos de sistemas de archivos, pero para empezar este formato es más que bueno.</p>
+</blockquote>
+<p><img src="/EnguedellarOs/images/kde_neon_root11.png" alt="Root"></p>
+<p>Una vez ya establecimos el <strong>root</strong> es el turno para la partición <strong>/home</strong>. En esta partición se encontrará el directorio donde guardaremos nuestros datos como archivos ofimáticos, videos, fotográficas, etc. Es muy recomendable crear esta partición ya que nos asegura que nuestros datos están separados del sistema y ante un posible error del mismo siempre podremos recuperar los datos sin problemas.</p>
+<p>Como ya sabemos tenemos que cambiar el campo <em><strong>Punto de Montaje</strong></em> por <strong>/home</strong> que significa que es la partición donde se guardarán los datos del usuario e indicarle el tamaño que deseamos en el campo <em><strong>Tamaño</strong></em>. En el campo <em><strong>Sistema de archivos</strong></em> indicaremos el formato <strong>ext4</strong>.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_home12.png" alt="Home"></p>
+<h2 id="ya-casi-estamos-acabando">¡Ya casi estamos acabando!</h2>
+<p>No entrare si es necesario o no, esta partición, la polémica <strong>Swap</strong>. Yo solo puedo decir, que por mi experiencia, manejando bases de datos y con otras aplicaciones que han ido a buscar la <strong>Swap</strong> al no encontrarla el sistema se quedo congelado, con lo que siempre la creo.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_swap13.png" alt="Swap"></p>
+<p>Indicarle el tamaño que deseamos en el campo <em><strong>Tamaño</strong></em>. En el campo <em><strong>Sistema de archivos</strong></em> indicaremos el formato <strong>linuxswap</strong>. En esta ocasión el campo <em><strong>Punto de Montaje</strong></em> no hay que indicarle nada, ya que la <strong>Swap</strong> no se monta en el sistema.</p>
+<p>Una vez que ya hemos creado todas las particiones nuestro disco se vera algo parecido a la siguiente imagen.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_14.png" alt="Particiones"></p>
+<h2 id="ya-podemos-seguir-con-la-instalación">¡Ya podemos seguir con la instalación!</h2>
+<p>Ya solo queda continuar, con lo que pulsamos el botón <em>Siguiente</em>.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_15.png" alt="Usuario"></p>
+<p>Solo tenemos que indicar el nombre del <strong>Usuario</strong> que queremos crear para el sistema, el <strong>Nombre del Ordenador</strong> y la <strong>Contraseña</strong> con la que entraremos en el sistema. Si marcamos el check de <strong>Conectarse automáticamente</strong> al iniciar el ordenador no preguntara ni usuario ni contraseña. Una vez rellenados pulsamos el boton <strong>Instalar</strong>. Y empezará la instalación.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_16.png" alt="Instalando"></p>
+<p>Ahora solo tenemos que esperar que acabe con el proceso. Cuando eso suceda nos mostrara el siguiente mensaje.</p>
+<p><img src="/EnguedellarOs/images/kde_neon_17.png" alt="Fin"></p>
+<h2 id="ya-se-ha-acabado">¡Ya se ha acabado!</h2>
+<p>Ahora solo tenemos que reiniciar y ya podemos disfrutar de <strong>KDE Neon</strong> instalado en nuestra maquina.</p>
+<p>Se ha hecho largo , pero espero que os haya aclarado las dudas a la hora de instalar un sistema GNU/Linux y a partir de ahora instalarlo sin problemas.</p>
+
+	  </div>
+	  <hr>
+	  <div>Share via
+	  <a title='email' href='mailto:?subject=Istalando%20KDE%20Neon&body=https%3a%2f%2ffranmauriz.github.io%2fEnguedellarOs%2fpost%2f2020-09-10-instalando-kde-neon%2f'><button class='btn btn-sm btn-light'>✉️</button></a>
+	  
+	  </div>
+	  <br>
+	  <code>Tags:<span class='badge badge-dark'><a class='text-white' href='https://franmauriz.github.io/EnguedellarOs/tags/linux'>Linux</a></span>
+	  <span class='badge badge-dark'><a class='text-white' href='https://franmauriz.github.io/EnguedellarOs/tags/instalaci%c3%b3n'>instalación</a></span>
+	  <span class='badge badge-dark'><a class='text-white' href='https://franmauriz.github.io/EnguedellarOs/tags/empezando'>empezando</a></span>
+	  
+	  </code>
+	  <br>
+	    
+	</section>
+
+
+
+      </div>
+  </body><footer>
+  <div class="container-fluid bg-dark text-white text-monospace text-center mt-2">
+    <small>Copyright © 2008–2019</small>
+  </div>
+  
+</footer>
+<div>
+</div>
+</html>
