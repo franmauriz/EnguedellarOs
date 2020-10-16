@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backup on EnguedellarOS</title>
+    <link>https://franmauriz.github.io/EnguedellarOs/categories/backup/</link>
+    <description>Recent content in Backup on EnguedellarOS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>Copyright © 2008–2019</copyright>
+    <lastBuildDate>Mon, 14 Sep 2020 11:39:25 +0200</lastBuildDate><atom:link href="https://franmauriz.github.io/EnguedellarOs/categories/backup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crea Tus Backups Con Back in time</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-14-crea-tus-backups-con-back_in_time/</link>
+      <pubDate>Mon, 14 Sep 2020 11:39:25 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-14-crea-tus-backups-con-back_in_time/</guid>
+      <description>Seguro que alguna vez te has lamentado de no tener una copia de seguridad de tus documentos de trabajo, las fotos de tus vacaciones o momentos familiares, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

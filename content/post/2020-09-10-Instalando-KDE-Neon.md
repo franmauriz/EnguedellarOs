@@ -9,7 +9,7 @@ draft: false
 
 # Nuestra primera instalación con Kde Neon.
 
-![Kde Neon](/images/kde_neon01.jpg)
+![Kde Neon](/EnguedellarOs/images/kde_neon01.jpg)
 
 ## ¡¡Vamos a instalar nuestra primera distribución GNU/Linux!!
 
