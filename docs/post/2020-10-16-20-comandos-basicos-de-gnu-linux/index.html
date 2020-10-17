@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+	<meta charset="utf-8">
+	<meta name="description" content='EnguedellarOS pretende ser un proyecto para dar a conocer el Software libre y el universo GNU/Linux'>
+	
+		
+		<meta name="keywords" content='Linux, Comandos, Terminal, '>
+	
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="generator" content="Hugo 0.75.1" />
+	<link rel="stylesheet" type="text/css" href='https://franmauriz.github.io/EnguedellarOs/css/bootstrap.min.css'>
+	<title>1º parte.20 Comandos básicos de GNU/Linux para noveles.</title>
+</head>
+<body>
+      <div id="content"><nav class="navbar text-center sticky-top bg-white mt-2 mb-5">
+    <a href='https://franmauriz.github.io/EnguedellarOs'><span class="btn btn-sm btn-outline-primary">Home</span></a>
+    <a href='https://franmauriz.github.io/EnguedellarOs/about'><span class="btn btn-sm btn-outline-secondary">About</span></a>
+    <a href='https://franmauriz.github.io/EnguedellarOs/post'><span class="btn btn-sm btn-outline-success">Blog</span></a>
+    <a href='https://franmauriz.github.io/EnguedellarOs/tags'><span class="btn btn-sm btn-outline-warning">Tags</span></a>
+</nav>
+
+
+	<section class="container text-justified mt-3">
+	  <h2 class="font-weight-bold">1º parte.20 Comandos básicos de GNU/Linux para noveles.</h2>
+	  <small class="text-secondary mb-5">Posted on October 10, 2020 | 5 minute read</small>
+	  <div class="text-monospace mt-2">
+		  <p><img src="/EnguedellarOs/images/comandos.png" alt="Terminal"></p>
+<p>Cuando empezamos en el mundo de GNU/Linux y ya hemos superado con éxito las etapas de instalación y de personalización de nuestro sistema y estamos contentos con él. De repente no sabemos por que aparece un error, con lo que nos dirigimos rápidamente a buscar la solución en internet, por medio de los buscadores , por foros , por grupos de Telegram, etc..</p>
+<p>Pero si somos noveles , es normal que encontremos en una reseña de un foro, o un usuario de la comunidad nos indique la solución, pero esta venga de la mano los <em><strong>temibles comandos de la terminal</strong></em> . Empiezan a inundarnos de comandos que no sabemos que significan y debemos confiar en que la solución encontrada o indicada por otra persona sea de confianza y no dañe mas nuestro equipo.</p>
+<p>Para tener más seguridad en este escenario recomieindo lo siguiente:</p>
+<blockquote>
+<p>Si no sabes que hace un comando , <strong>NO LO EJECUTES</strong>. Primero mira en la documentación, ya sea por medio de internet, recomiendo que visitéis la pagina web <a href="https://www.die.net/">https://www.die.net/</a> donde encontrareis toda la documentación necesaria para cualquier comando linux. O a través de la terminal con el comando <strong>man</strong>.</p>
+</blockquote>
+<p>Aquí os dejo un primer video de una serie de varios donde explicare los comandos más básicos que cualquier novel de linux debe conocer para asi poder interpretar esos comandos que encontramos por internet o nos dicen los usuarios de la comunidad.</p>
+<div class="embed video-player">
+    <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/rtZ-l5I6grg" allowfullscreen frameborder="0">
+    </iframe>
+</div>
+<p>Aquí esta la lista de los comandos que aparecen en el video:</p>
+<ol>
+<li>Comando <strong>ls</strong>.Lista las carpetas y ficheros de un directorio.</li>
+<li>Comando <strong>cd</strong>. Mueve nuestra posición dentro de un directorio inferior o superior.</li>
+<li>Comando <strong>cp</strong>. Copia ficheros o directorios en otra ubicación del sistema o unidad externa de almacenamiento.</li>
+<li>Comando <strong>mv</strong>. Mueve ficheros o directorios en otra ubicación del sistema o unidad externa de almacenamiento.</li>
+<li>Comando <strong>rm</strong>. Borra ficheros o directorios (rm -R) del equipo.</li>
+<li>Comando <strong>mkdir</strong>. Crea directorios en el sistema.</li>
+<li>Comando <strong>rmdir</strong>. Borradirectorios del ordenador.</li>
+<li>Comando <strong>chown</strong> CAmbia el propietario de in directorio o fichero</li>
+<li>Comando <strong>chmod</strong> cambia los bits de modo de archivo de cada archivo dado según el modo , que puede ser una representación simbólica de los cambios a realizar o un número octal que representa el patrón de bits para los nuevos bits de modo. chown cambia la propiedad del usuario y / o grupo de cada archivo dado. Si solo se proporciona un propietario (un nombre de usuario o ID de usuario numérico), ese usuario se convierte en el propietario de cada archivo dado y el grupo de archivos no se cambia. Si el propietario va seguido de dos puntos y un nombre de grupo (o ID de grupo numérico), sin espacios entre ellos, la propiedad del grupo de los archivos también cambia. Si dos puntos pero ningún nombre de grupo sigue al nombre de usuario, ese usuario se convierte en el propietario de los archivos y el grupo de archivos se cambia al grupo de inicio de sesión de ese usuario. Si se dan los dos puntos y el grupo, pero se omite el propietario, solo se cambia el grupo de archivos; en este caso, chown realiza la misma función que chgrp. Si solo se dan dos puntos, o si todo el operando está vacío, no se cambia ni el propietario ni el grupo.Comando chmod CAmbia los permisos de ejecucion, escritura y lectura
+chmod cambia los bits de modo de archivo de cada archivo dado según el modo , que puede ser una representación simbólica de los cambios a realizar o un número octal que representa el patrón de bits para los nuevos bits de modo.</li>
+<li>Comando <strong>Locale</strong>
+obtenga información específica de la configuración regional</li>
+<li>Comando <strong>updatedb</strong> .updatedb crea o actualiza una base de datos utilizada por Locate (1) . Si la base de datos ya existe, sus datos se reutilizan para evitar volver a leer los directorios que no han cambiado.updatedb generalmente se ejecuta diariamente por cron (8) para actualizar la base de datos predeterminada.</li>
+<li>Comando <strong>date</strong> .Visualice la hora actual en el FORMATO dado o configure la fecha del sistema</li>
+<li>Comando <strong>tar</strong>. GNU ' tar ' guarda muchos archivos juntos en una sola cinta o archivo de disco, y puede restaurar archivos individuales del archivo.</li>
+<li>Comando <strong>cat</strong>.Concatenar ARCHIVO (s), o entrada estándar, a salida estándar.</li>
+<li>Comando <strong>less</strong>.Less es un programa similar a more (1) , pero que permite el movimiento hacia atrás en el archivo y hacia adelante. Además, menos no tiene que leer todo el archivo de entrada antes de comenzar, por lo que con archivos de entrada grandes se inicia más rápido que los editores de texto como vi</li>
+<li>Comando <strong>grep</strong>. grep busca los ARCHIVOS de entrada nombrados(o la entrada estándar si no se nombran archivos, o si se da un solo guión menos ( - ) como nombre de archivo) para líneas que contengan una coincidencia con el PATRÓN dado. De forma predeterminada, grep imprime las líneas coincidentes.s</li>
+<li>Comando <strong>passwd</strong>. La utilidad passwd se utiliza para actualizar los token (s) de autenticación del usuario .</li>
+<li>Comando <strong>du</strong> .estimación del uso del espacio de archivos</li>
+<li>Comando <strong>reboot</strong>. La llamada reboot () reinicia el sistema, o habilita / deshabilita la pulsación de la tecla de reinicio</li>
+<li>Comando <strong>halt</strong>. Estos programas permiten al administrador del sistema reiniciar , detener o apagar el sistema.</li>
+</ol>
+
+	  </div>
+	  <hr>
+	  <div>Share via
+	  <a title='email' href='mailto:?subject=1%c2%ba%20parte.20%20Comandos%20b%c3%a1sicos%20de%20GNU%2fLinux%20para%20noveles.&body=https%3a%2f%2ffranmauriz.github.io%2fEnguedellarOs%2fpost%2f2020-10-16-20-comandos-basicos-de-gnu-linux%2f'><button class='btn btn-sm btn-light'>✉️</button></a>
+	  
+	  </div>
+	  <br>
+	  <code>Tags:<span class='badge badge-dark'><a class='text-white' href='https://franmauriz.github.io/EnguedellarOs/tags/linux'>Linux</a></span>
+	  <span class='badge badge-dark'><a class='text-white' href='https://franmauriz.github.io/EnguedellarOs/tags/comandos'>Comandos</a></span>
+	  <span class='badge badge-dark'><a class='text-white' href='https://franmauriz.github.io/EnguedellarOs/tags/terminal'>Terminal</a></span>
+	  
+	  </code>
+	  <br>
+	    
+	</section>
+
+
+
+      </div>
+  </body><footer>
+  <div class="container-fluid bg-dark text-white text-monospace text-center mt-2">
+    <small>Copyright © 2008–2019</small>
+  </div>
+  
+</footer>
+<div>
+</div>
+</html>

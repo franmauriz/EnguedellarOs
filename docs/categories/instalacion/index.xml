@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>instalacion on EnguedellarOS</title>
+    <link>https://franmauriz.github.io/EnguedellarOs/categories/instalacion/</link>
+    <description>Recent content in instalacion on EnguedellarOS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>Copyright © 2008–2019</copyright>
+    <lastBuildDate>Thu, 10 Sep 2020 07:40:36 +0200</lastBuildDate><atom:link href="https://franmauriz.github.io/EnguedellarOs/categories/instalacion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Istalando KDE Neon</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-10-instalando-kde-neon/</link>
+      <pubDate>Thu, 10 Sep 2020 07:40:36 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-10-instalando-kde-neon/</guid>
+      <description>Nuestra primera instalación con Kde Neon. ¡¡Vamos a instalar nuestra primera distribución GNU/Linux!</description>
+    </item>
+    
+    <item>
+      <title>Crear USB de instalación de distribución GNU/Linux</title>
+      <link>https://franmauriz.github.io/EnguedellarOs/post/2020-09-08-crear-usb-de-instalacion/</link>
+      <pubDate>Tue, 08 Sep 2020 07:40:36 +0200</pubDate>
+      
+      <guid>https://franmauriz.github.io/EnguedellarOs/post/2020-09-08-crear-usb-de-instalacion/</guid>
+      <description>Como crear un USB de instalación para GNU/Linux Cuando por fin nos decidimos a probar o a instalar una distribución GNU/Linux , ya sea , Ubuntu,Linux mint, Fedora , etc.</description>
+    </item>
+    
+  </channel>
+</rss>
